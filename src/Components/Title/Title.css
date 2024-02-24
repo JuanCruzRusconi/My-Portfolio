@@ -1,0 +1,21 @@
+.title-container {
+    color: #D4FFFF;
+    height: 30px;
+    font-size: 24px;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+  
+.subtitle-container {
+    color: #ADDAFC;
+    height: 20px;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    align-items: center;
+}
