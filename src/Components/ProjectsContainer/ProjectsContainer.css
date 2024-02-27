@@ -17,7 +17,7 @@
   gap: 20px;
 }
 
-@media (width >= 400px) and (width <= 800px) {
+@media (width >= 400px) and (width <= 900px) {
   
   .projects-container {
     width: auto;
@@ -27,6 +27,12 @@
     margin-left: 30px;
     margin-right: 30px;
     padding: 0px 20px 0px 20px;
+  }
+
+  .projects-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
 }
