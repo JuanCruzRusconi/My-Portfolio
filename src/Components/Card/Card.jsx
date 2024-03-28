@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 
 import "./Card.css";
 
-
 const Card = memo (( {project} ) => {
 
     return (

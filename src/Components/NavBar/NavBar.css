@@ -25,7 +25,8 @@
   
   .navbar-items {
     color: aliceblue;
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 4px;
     text-decoration: none;
     outline: none;
     display: flex;

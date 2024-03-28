@@ -1,6 +1,6 @@
+import { NavLink } from "react-router-dom";
 import linkedinIcon from "../../assets/linkedinIcon.png";
 import githubIcon from "../../assets/githubIcon.png";
-import { NavLink } from "react-router-dom";
 
 import "./Footer.css";
 

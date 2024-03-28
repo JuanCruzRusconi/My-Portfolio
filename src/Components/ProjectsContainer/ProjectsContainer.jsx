@@ -1,24 +1,23 @@
 import { Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import homeLogo from "../../assets/homeLogo.jpg";
+import reactImage from "../../assets/reactProject.png"
 import Card from "../Card/Card";
 
 import "./ProjectsContainer.css";
 import Title from "../Title/Title";
 
 let projectsObj = [
-    { id: 0, image: homeLogo, title: "Landing Page", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://github.com/JuanCruzRusconi?tab=repositories" },
-    { id: 1, image: homeLogo, title: "JS Ecommerce", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://github.com/JuanCruzRusconi?tab=repositories" },
-    { id: 2, image: homeLogo, title: "React Ecommerce", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://github.com/JuanCruzRusconi?tab=repositories" },
+    { id: 0, image: homeLogo, title: "Landing Page", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://electricidad-rusconi.netlify.app/" },
+    { id: 1, image: homeLogo, title: "JS Ecommerce", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://usaimports.netlify.app/" },
+    { id: 2, image: reactImage, title: "React Ecommerce", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://e-commerce-project-reactjs.netlify.app" },
     { id: 3, image: homeLogo, title: "BackEnd Ecommerce", text: "This is a project ... uguhsu ghogo ig owo itnoet wngoitn nvitivito oivte", link: "https://github.com/JuanCruzRusconi?tab=repositories" }
 ]
 
 const ProjectsContainer = () => {
 
-    let title = "My projects."
+    let title = "PROJECTS."
     let subtitle = "These are my personal recent projects."
-
-    
 
     return (
         <>

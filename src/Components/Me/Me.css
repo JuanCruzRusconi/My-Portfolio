@@ -18,21 +18,23 @@
   
   .me-intro {
     font-size: 40px;
+    letter-spacing: 2px;
   }
   
   .me-name {
     color: #D4FFFF;
     font-size: 70px;
+    letter-spacing: 4px;
     font-weight: 900;
     width: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  point {
+.point {
     font-size: 37px;
     font-weight: 700;
-    color: #D4FFFF;
+    color: rgb(212, 255, 255);
     text-transform:uppercase;
 }
 .inserction {
@@ -74,4 +76,5 @@
     width: 700px;
     height: 600px;
     padding-right: 50px;
+    filter: drop-shadow(0 0 7px rgba(227, 199, 255));
   }

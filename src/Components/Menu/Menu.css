@@ -1,5 +1,5 @@
 .menu-container {
-    color: #E3C7FF;
+    color: rgb(227, 199, 255);
     height: 50px;
     width: 600px;
     display: flex;
@@ -10,7 +10,8 @@
   
   .menu-items {
     width: 625px;
-    font-size: 15px;
+    font-size: 14px;
+    letter-spacing: 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,12 +22,13 @@
   .menu-items-minors {
     width: 575px;
     color: #ADDAFC;
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 23px;
     margin-bottom: 30px;
   }
   

@@ -7,7 +7,7 @@ import "./About.css";
 
 const About = () => {
 
-    let title = "About me.";
+    let title = "ABOUT.";
     let subtitle = "Let me introduce myself ..."
     let text = "";
 

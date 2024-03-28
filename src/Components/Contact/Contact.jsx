@@ -8,7 +8,7 @@ import "./Contact.css"
 
 const Contact = () => {
 
-    let title = "Contact."
+    let title = "CONTACT."
     let subtitle = "Let's get in touch!"
     
     return (

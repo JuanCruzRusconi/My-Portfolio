@@ -1,11 +1,11 @@
 import Title from "../Title/Title";
-import resumeImage from "../../../public/CV-JuanCruzRusconi-English.pdf";
+import resumeImage from "../../assets/CV-IT-JuanCruzRusconi-English.jpg";
 
 import "./Resume.css";
 
 const Resume = () => {
 
-    let title = "Resume.";
+    let title = "RESUME.";
     let subtitle = "My recent resume.";
 
     return (
@@ -17,12 +17,12 @@ const Resume = () => {
                 </div>
                 <div className="button-download-container">
                     <button className="button-download">
-                        <a className="link" href='./CVEnglish' download={''} target="_blank">
+                        <a className="link" href='/CV-IT-JuanCruzRusconi-English.pdf' download={''} target="_blank">
                             Download CV English
                         </a>
                     </button>
                     <button className="button-download">
-                        <a className="link" href='./CVSpanish' download={''} target="_blank">
+                        <a className="link" href='/CV-IT-JuanCruzRusconi-Spanish.pdf' download={''} target="_blank">
                             Download CV Spanish
                         </a>
                     </button>

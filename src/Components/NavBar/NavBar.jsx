@@ -19,23 +19,23 @@ const NavBar = () => {
             <div className="sections-container">
                 <NavLink className="navbar-items" to={'/'}>
                     <img className="navbar-icons" src={homeIcon} alt="home" />
-                    <h2>Home</h2>
+                    <h2>HOME</h2>
                 </NavLink>
                 <NavLink className="navbar-items" to='/about'>
                     <img className="navbar-icons" src={aboutmeIcon} alt="home" />
-                    <h2>About</h2>
+                    <h2>ABOUT</h2>
                 </NavLink>
                 <NavLink className="navbar-items" to='/projects'>
                     <img className="navbar-icons" src={projectsIcon} alt="home" />
-                    <h2>Projects</h2>
+                    <h2>PROJECTS</h2>
                 </NavLink>
                 <NavLink className="navbar-items" to='/resume'>
                     <img className="navbar-icons" src={resumeIcon} alt="home" />
-                    <h2>Resume</h2>
+                    <h2>RESUME</h2>
                 </NavLink>
                 <NavLink className="navbar-items" to='/contact'>
                     <img className="navbar-icons" src={contactIcon} alt="home" />
-                    <h2>Contact</h2>
+                    <h2>CONTACT</h2>
                 </NavLink>
                
             </div>
