@@ -1,9 +1,6 @@
 import Title from "../Title/Title";
+import homeLogo1 from "../../assets/homeLogo1.png";
 import homeLogo2 from "../../assets/homeLogo2.png";
-import homeLogo3 from "../../assets/homeLogo3.png";
-import homeLogo4 from "../../assets/homeLogo4.png";
-import homeLogo5 from "../../assets/homeLogo5.png";
-import homeLogo6 from "../../assets/homeLogo6.png";
 
 import "./Me.css";
 
@@ -18,7 +15,7 @@ const Me = ({children}) => {
                 {children}
             </div>
             <div className="me-image">
-                <img className="home-image" src={homeLogo5} alt="homeLogo" />
+                <img className="home-image" src={homeLogo2} alt="homeLogo" />
             </div>
         </div>
     )

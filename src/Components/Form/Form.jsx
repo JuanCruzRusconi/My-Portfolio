@@ -1,8 +1,65 @@
 import { useState } from "react";
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./Form.css"
 import Swal from "sweetalert2";
 
+export const Form = () => {
+    
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      
+        e.preventDefault();
+
+        Swal.fire({
+            title: "Message sent!",
+            text: "Thank you. I'll read it soon!",
+            icon: "success"
+        });
+  
+        emailjs.sendForm('service_yof5aew', 'template_wv1afy7', form.current, {
+            publicKey: 'P2sHLKZQ67wfXdLH9'})
+            .then(
+            () => {
+            console.log('SUCCESS!');
+            },
+            (error) => {
+            console.log('FAILED...', error.text);
+            },
+        );
+    };
+  // VALIDAR CAMPOS DEL FORMMULARIO - EVITAR QUE SE ENVIE VACIO
+    return (
+        
+        <section className="form-container">
+            <h3 className="form-title">Send me an email.</h3>
+            <form className="form" ref={form} onSubmit={sendEmail}>
+                <input
+                    className="form-input"
+                    type="text" name="user_name"
+                    placeholder="Name"
+                />
+                <input
+                    className="form-input"
+                    type="email" name="user_email"
+                    placeholder="Email"
+                />
+                <textarea
+                    className="form-textarea"
+                    name="message"
+                    placeholder="Type your message."
+                />
+                <button className="form-button">Send</button>
+            </form>
+        </section>
+    );
+  };
+
+
+export default Form;
+
+/*
 const Form = () => {
 
     const [ formData, setFormData ] = useState({ name: '', email: '', message: '' });
@@ -58,5 +115,4 @@ const Form = () => {
         </section>
     )
 }
-
-export default Form;
+*/

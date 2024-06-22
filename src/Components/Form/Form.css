@@ -35,7 +35,23 @@
     color: aliceblue;
     font-size: 14px;
     height: 25px;
+    min-height: 25px;
     width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 1px #D4FFFF;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+.form-textarea {
+    color: aliceblue;
+    font-size: 14px;
+    padding-top: 3px;
+    height: 50px;
+    min-height: 25px;
+    min-width: 400px;
+    max-width: 700px;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 0px 5px 1px #D4FFFF;
@@ -50,6 +66,7 @@
     box-shadow: 0px 0px 5px 1px #E3C7FF;
     width: 110px;
     height: 40px;
+    min-height: 30px;
     font-size: 14px;
     font-family: "Victor Mono", monospace;
     font-weight: bold;
