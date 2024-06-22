@@ -1,6 +1,6 @@
 .footer-container {
     background-color: rgb(0, 0, 0, 0.2);
-    height: 80px;
+    height: 70px;
     width: 100%;  
     position: absolute;
     bottom: 0;
@@ -8,6 +8,7 @@
   }
   
   .footer-icons-container {
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,7 +19,7 @@
   .footer-icons {
     height: 35px;
     width: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   span {
@@ -29,6 +30,7 @@
   .copyright-container {
     font-family: sans-serif;
     font-size: 12px;
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
   }
