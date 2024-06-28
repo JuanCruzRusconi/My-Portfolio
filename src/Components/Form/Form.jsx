@@ -7,7 +7,17 @@ import Swal from "sweetalert2";
 export const Form = () => {
     
     const form = useRef();
+
+    const [ formData, setFormData ] = useState({ name: '', email: '', message: '' })
   
+    const handleOnChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        })
+    }
+    console.log(formData);
+
     const sendEmail = (e) => {
       
         e.preventDefault();
@@ -37,18 +47,27 @@ export const Form = () => {
             <form className="form" ref={form} onSubmit={sendEmail}>
                 <input
                     className="form-input"
-                    type="text" name="user_name"
+                    type="text" 
+                    name="name"
                     placeholder="Name"
+                    onChange={handleOnChange}
+                    value={formData.name}
                 />
                 <input
                     className="form-input"
-                    type="email" name="user_email"
-                    placeholder="Email"
+                    type="text" 
+                    name="email"
+                    placeholder="Email"       
+                    onChange={handleOnChange}                            
+                    value={formData.email}
                 />
                 <textarea
                     className="form-textarea"
+                    type="text"
                     name="message"
                     placeholder="Type your message."
+                    onChange={handleOnChange}
+                    value={formData.message}
                 />
                 <button className="form-button">Send</button>
             </form>

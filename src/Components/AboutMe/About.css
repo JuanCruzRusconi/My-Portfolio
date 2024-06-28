@@ -1,16 +1,12 @@
 .aboutMe-text-container {
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
-    
+    gap: 12px;
     align-items: center;
-    margin-top: 80px;
-    margin-left: 350px;
-    margin-right: 350px;
-}
-  
-.aboutMe-text {
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 320px;
+    margin-right: 320px;
 }
 
 .about-image-container {
@@ -18,7 +14,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .about-image {
