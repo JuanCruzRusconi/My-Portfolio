@@ -10,6 +10,7 @@ import "./NavBar.css";
 const NavBar = () => {
 
     return (
+
         <div className="navbar-container">
             <div className="section-logo-container">
                 <NavLink className="navbar-items" to={'/'}>
@@ -36,10 +37,10 @@ const NavBar = () => {
                 <NavLink className="navbar-items" to='/contact'>
                     <img className="navbar-icons" src={contactIcon} alt="home" />
                     <h2>CONTACT</h2>
-                </NavLink>
-               
+                </NavLink>  
             </div>
         </div>
+        
     )
 }
 

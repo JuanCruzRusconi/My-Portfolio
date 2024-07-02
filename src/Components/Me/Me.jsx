@@ -1,4 +1,3 @@
-import Title from "../Title/Title";
 import homeLogo1 from "../../assets/homeLogo1.png";
 import homeLogo2 from "../../assets/homeLogo2.png";
 
@@ -7,6 +6,7 @@ import "./Me.css";
 const Me = ({children}) => {
 
     return (
+
         <div className="me-container">
             <div className="me">
                 <h2 className="me-intro">Hi! I'm</h2>
@@ -18,6 +18,7 @@ const Me = ({children}) => {
                 <img className="home-image" src={homeLogo2} alt="homeLogo" />
             </div>
         </div>
+
     )
 }
 

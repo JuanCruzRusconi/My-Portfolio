@@ -7,6 +7,7 @@ import "./Footer.css";
 const Footer = () => {
 
     return (
+        
         <div className="footer-container">
             <div className="footer-icons-container">
                 <NavLink to="https://www.linkedin.com/in/juan-cruz-rusconi/" target="_blank" rel="noopener noreferrer">

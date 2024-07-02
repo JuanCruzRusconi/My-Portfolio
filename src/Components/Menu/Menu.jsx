@@ -1,5 +1,4 @@
-import reactLogo2 from "../../assets/built-with-react.svg";
-import reactLogo3 from "../../assets/built-with-react2.svg";
+import reactLogo from "../../assets/built-with-react.svg";
 import loveLogo from "../../assets/made-with-love.svg";
 
 import "./Menu.css";
@@ -30,10 +29,11 @@ const Menu = () => {
                 <h2 className="menu-item">Tailwind</h2>                    
             </div>
             <div className="menu-logo">
-                <img className="menu-logo-item" src={reactLogo3} alt="" />
+                <img className="menu-logo-item" src={reactLogo} alt="" />
                 <img className="menu-logo-item" src={loveLogo} alt="" />
             </div>
         </div>
+
     )
 }
 

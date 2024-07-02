@@ -1,11 +1,8 @@
-import { useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 import Me from './Components/Me/Me';
 import Menu from './Components/Menu/Menu';
 import NavBar from './Components/NavBar/NavBar';
-import Button from '@mui/material/Button';
-import Form from './Components/Form/Form';
 import About from './Components/AboutMe/About';
 import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact/Contact';
@@ -13,11 +10,11 @@ import ProjectsContainer from './Components/ProjectsContainer/ProjectsContainer'
 import Footer from './Components/Footer/Footer';
 
 import './App.css';
-import Swal from "sweetalert2";
 
 const App = () => {
 
     return (
+
         <div className='app-container'>
             <BrowserRouter>
                 <NavBar />

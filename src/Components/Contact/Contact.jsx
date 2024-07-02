@@ -10,6 +10,7 @@ const Contact = () => {
     let subtitle = "Let's get in touch!"
     
     return (
+
         <>
             <Title title={title} subtitle={subtitle} />
             <Form />
@@ -17,6 +18,7 @@ const Contact = () => {
                 <img className="contact-image" src={contactLogo} alt="contactLogo" />
             </div>
         </>
+        
     )
 }
 

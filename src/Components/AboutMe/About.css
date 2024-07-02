@@ -1,5 +1,5 @@
 .aboutMe-text-container {
-    font-size: 18px;
+    font-size: 17px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -7,6 +7,7 @@
     margin-top: 40px;
     margin-left: 320px;
     margin-right: 320px;
+    margin-bottom: 10px;
 }
 
 .about-image-container {
@@ -14,10 +15,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 .about-image {
-    height: 300px;
-    width: 330px;
+    height: 270px;
+    width: 300px;
 }

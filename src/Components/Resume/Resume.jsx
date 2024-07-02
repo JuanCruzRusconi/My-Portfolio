@@ -9,6 +9,7 @@ const Resume = () => {
     let subtitle = "My recent resume.";
 
     return (
+
         <>
             <Title title={title} subtitle={subtitle} />
             <div className="resume-container">
@@ -29,6 +30,7 @@ const Resume = () => {
                 </div>
             </div>
         </>
+        
     )
 }
 

@@ -6,6 +6,7 @@ import "./Card.css";
 const Card = memo (( {project} ) => {
 
     return (
+
         <div key={project.id} className="card">
             <img className="project-image" src={project.image} alt="" />
             <h3 className="project-title">{project.title}</h3>
@@ -14,7 +15,7 @@ const Card = memo (( {project} ) => {
                 <button className="project-button">To project</button>
             </NavLink>
         </div>
-
+        
     )
 })
 

@@ -8,7 +8,7 @@
     margin-top: 30px;
   }
   
-  .menu-items {
+.menu-items {
     width: 625px;
     font-size: 14px;
     letter-spacing: 4px;
@@ -17,11 +17,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-  }
+}
   
-  .menu-items-minors {
+.menu-items-minors {
     width: 575px;
-    color: #ADDAFC;
+    color: rgb(227, 199, 255);
     font-size: 10px;
     letter-spacing: 2px;
     display: flex;
@@ -30,19 +30,19 @@
     align-items: center;
     margin-left: 23px;
     margin-bottom: 30px;
-  }
+}
   
-  .menu-item:hover {
+.menu-item:hover {
     color: #D4FFFF;
     transition: 0.5s;
     transform: scale(110%);
-  }
+}
   
-  .menu-logo {
+.menu-logo {
     height: 30px;
     width: 100px;
-  }
+}
   
-  .menu-logo-item{
+.menu-logo-item{
     margin-bottom: 5px;
-  }
+}
