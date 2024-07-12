@@ -52,4 +52,36 @@
     width: 18px;
     padding-right: 7px;
 }
-  
+
+.navbar-flags-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 22px;
+    gap: 5px;
+}
+
+.uk-container {
+    height: 25px;
+    width: 25px;
+}
+
+.sp-container {
+    height: 25px;
+    width: 25px;    
+}
+
+.flags-button {
+    height: 22px;
+    width: 22px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-flags {
+    height: 22px;
+    width: 22px;
+    padding-right: 7px;
+}

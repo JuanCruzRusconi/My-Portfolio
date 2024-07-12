@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import Title from "../Title/Title";
 import resumeImage from "../../assets/CV-IT-JuanCruzRusconi-English.jpg";
 
@@ -11,7 +12,18 @@ const Resume = () => {
     return (
 
         <>
-            <Title title={title} subtitle={subtitle} />
+            <Title 
+                title={
+                    <FormattedMessage 
+                        id="title.resume.first"
+                    />
+                }
+                subtitle={
+                    <FormattedMessage 
+                        id="title.resume.second"
+                    />
+                }
+            />
             <div className="resume-container">
                 <div className="resume-image-container">
                     <img className="resume-image" src={resumeImage} alt="resume" />

@@ -77,3 +77,32 @@
     padding-right: 50px;
     filter: drop-shadow(0 0 7px rgba(227, 199, 255));
 }
+
+@media ( 600px < width > 300px) {
+
+    .me-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 75px;
+    }
+
+    .me {
+        color: #404f5a;
+        height: 200px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 240px;
+        margin-top: 45px;
+        margin-bottom: 150px;
+    } 
+
+
+    .home-image {
+        width: 400px;
+        height: 300px;
+        padding-right: 50px;
+        filter: drop-shadow(0 0 7px rgba(227, 199, 255));
+    }
+}

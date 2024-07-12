@@ -19,5 +19,16 @@
     margin-left: 250px;
     margin-bottom: 20px;
     align-items: center;
-	
+}
+
+@media (width >= 300px) and (width <= 700px) {
+
+    .title-container {
+        margin-left: 60px;
+    }
+      
+    .subtitle-container {
+        margin-left: 60px;
+    }
+
 }

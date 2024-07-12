@@ -27,3 +27,11 @@ body {
     left: 0;
     right: 0;
 }
+
+@media (width >= 300px) and (width <= 700px) {
+
+    #root {
+        height: auto;
+        width: 82vh;
+    }
+}

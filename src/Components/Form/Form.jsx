@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { useState } from "react";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -44,7 +45,11 @@ export const Form = () => {
     return (
         
         <section className="form-container">
-            <h3 className="form-title">Send me an email.</h3>
+            <h3 className="form-title">
+                <FormattedMessage 
+                    id="form.title"
+                />
+            </h3>
             <form className="form" ref={form} onSubmit={sendEmail}>
                 <input
                     className="form-input"

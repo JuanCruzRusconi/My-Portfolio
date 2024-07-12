@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import LandingPage from "../../assets/HTML-CSS.webp";
 import JavaScript from "../../assets/JavaScript.jpeg";
 import React from "../../assets/React.png"
@@ -22,7 +23,18 @@ const ProjectsContainer = () => {
     return (
         
         <>
-            <Title title={title} subtitle={subtitle} />
+            <Title 
+                title={
+                    <FormattedMessage 
+                        id="title.projects.first"
+                    />
+                }
+                subtitle={
+                    <FormattedMessage 
+                        id="title.projects.second"
+                    />
+                }
+            />
             <div className="projects-container">
                 <div className="projects-cards-container">
                     { projectsObj.map(project => <Card key={project.id} project={project} /> ) }

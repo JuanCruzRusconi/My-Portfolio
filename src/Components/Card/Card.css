@@ -72,25 +72,27 @@
 
 }
 
-@media (width >= 400px) and (width <= 800px) {
+@media (width >= 300px) and (width <= 700px) {
     
-    .projects-cards-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
     .card {
         flex: 1;
-        background-color: rgb(0, 0, 0, 0.3);
-        height: 250px;
-        width: 800px;
+        background-color: blue;
+        height: 380px;
+        width: auto;
         flex: 1;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         opacity: 0.8;
-        border-radius: 15px 15px 70px 15px;
-        transition: all 0.5s ease 0s;
+
+    }
+
+    .enc {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-title {
+        margin-top: 40px;
     }
 
     .project-image {
@@ -98,6 +100,16 @@
         height: 250px;
         border-radius: 15px 5px 5px 15px;
         
+    }
+
+    .project-text {
+        margin-right: 1.5rem;
+    }
+
+    .project-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
     }
 
 }

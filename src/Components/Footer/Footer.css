@@ -60,3 +60,35 @@ span {
     color: aliceblue;
     align-content: center;
 }
+
+@media (width >= 300px) and (width <= 700px) {
+
+    .footer-container {
+        background-color: rgb(255, 0, 0);
+        position: fixed;
+        bottom: 0;
+        margin-top: 80px;
+    }
+
+    .copyright-signature {
+        flex: 1.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copyright {
+        flex: 1.4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .copyright-icons {
+        flex: 0.2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
