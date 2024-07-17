@@ -1,8 +1,12 @@
+import React, { useRef } from 'react';
 import { FormattedMessage } from "react-intl";
 import { useState } from "react";
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
+import RegularExpressions from '../../expressions.json';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
 
 import "./Form.css"
 
@@ -17,8 +21,12 @@ export const Form = () => {
             ...formData,
             [e.target.name]: e.target.value,
         })
-    }
+    };
     console.log(formData);
+
+    const handleValid = () => {
+        console.log('')
+    }
 
     const sendEmail = (e) => {
       
@@ -51,14 +59,21 @@ export const Form = () => {
                 />
             </h3>
             <form className="form" ref={form} onSubmit={sendEmail}>
-                <input
+                <div className='form-group-input'>
+                    <input
                     className="form-input"
                     type="text" 
                     name="name"
                     placeholder="Name"
                     onChange={handleOnChange}
                     value={formData.name}
-                />
+                    onKeyUp={handleValid}
+                    onBlur={handleValid}
+                    regularExpression={RegularExpressions.name}
+                    />
+                    <FontAwesomeIcon className='form-icon' icon={faSquareCheck} />
+                </div>
+                
                 <input
                     className="form-input"
                     type="text" 
@@ -75,7 +90,9 @@ export const Form = () => {
                     onChange={handleOnChange}
                     value={formData.message}
                 />
-                <button className="form-button">Send</button>
+                <button className="form-button">
+                    <FormattedMessage id="form.send-button" />
+                </button>
             </form>
         </section>
 

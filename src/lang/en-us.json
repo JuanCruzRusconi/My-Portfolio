@@ -27,6 +27,24 @@
     "about.text.fourth": "The discover of this new passion brought me to reinvent myself and begin new stage in my life. Today I'm passing a career of Computer Science in National University, while I continue training myself in a self-taught way so as not to miss out on the advances that characterize the technological field.",
     "about.text.fifth": "Looking forward to start my professional career to allow myself to gain experience and expand my knowledge, as well as learn new skills and technologies to stay up to date with new and future trends.",
 
-    "form.title": "Send me an email."
+    "card.project-button": "To project",
 
+    "resume.download-button.english": "Download CV - English",
+    "resume.download-button.spanish": "Download CV - Spanish",
+
+    "form.title": "Send me an email.",
+    "form.send-button": "Send",
+
+    "projects": {
+        "0": "My first project, an introduction to myself as a programmer. In this site I tried to create a simple landing page of a family company, with the knowledge that I had at these moment, without functionalities.",
+            
+        "1": "The second project, an e-commerce of tech products in which I introduce my first steps in JS language, with simple functionalities as add to cart products and delete them from it.",
+            
+        "2": "In the third project, a more advanced e-commerce with major functionalities created with React and Firestore used as cloud DB to manipulate all data of the products and their stock.",
+            
+        "3": "The fourth project, a RESTful API constructed in NodeJS and ExpressJS with MongoDB for storage, and implementation of design patterns such as Singleton, Factory and Repository, and libraries such as Handlebars for views."
+               
+    }
+        
 }
+ 

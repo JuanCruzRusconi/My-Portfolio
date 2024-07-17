@@ -22,11 +22,32 @@
     "title.contact.first": "CONTACTO.",
     "title.contact.second": "Estemos en contacto!",
 
-    "about.text.first": "I consider myself a proactive, orderly and responsible person, curious, which guarantees me to keep growing constantly.",
-    "about.text.second": "A little about me, two years ago I discover the world of IT and and I got passionate. To be more specific, the world of programming and web development.",
-    "about.text.third": "I completed courses in these areas, oriented in MERN Stack, including e-commerce projects for FrontEnd and the develop of an RESTful API created for BackEnd, with the implementation of some third party libraries to get more functionality in my projects.",
-    "about.text.fourth": "The discover of this new passion brought me to reinvent myself and begin new stage in my life. Today I'm passing a career of Computer Science in National University, while I continue training myself in a self-taught way so as not to miss out on the advances that characterize the technological field.",
-    "about.text.fifth": "Looking forward to start my professional career to allow myself to gain experience and expand my knowledge, as well as learn new skills and technologies to stay up to date with new and future trends.",
+    "about.text.first": "Me considero una persona proactiva, ordenada y responsable, curiosa, lo que me garantiza seguir creciendo constantemente.",
+    "about.text.second": "Un poco sobre mí, hace dos años descubrí el mundo de las TI y me apasionó. En concreto, el mundo de la programación y el desarrollo web.",
+    "about.text.third": "Completé cursos en estas áreas, orientados en el Stack MERN, incluyendo proyectos de e-commerce para FrontEnd y el desarrollo de una API RESTful creada para el BackEnd, con la implementación de algunas bibliotecas de terceros para obtener más funcionalidad en mis proyectos.",
+    "about.text.fourth": "El descubrimiento de esta nueva pasión me llevó a reinventarme y comenzar una nueva etapa en mi vida. Hoy estoy cursando la carrera de Informática en la Universidad Nacional, mientras continuo capacitándome de manera autodidacta para no perderme de los avances que caracterizan al campo tecnológico.",
+    "about.text.fifth": "Deseando iniciar mi carrera profesional para permitirme ganar experiencia y ampliar mis conocimientos, así como aprender nuevas habilidades y tecnologías para estar al día de las nuevas y futuras tendencias.",
 
-    "form.title": "Envíame un email."
+    "card.project-button": "Ver proyecto",
+
+    "resume.download-button.english": "Descargar CV - Inglés",
+    "resume.download-button.spanish": "Descargar CV - Español",
+
+    "form.title": "Envíame un email.",
+    "form.send-button": "Enviar",
+
+    "projects": {
+        "0": {
+            "text": "Mi primer proyecto, una introducción a mí mismo como programador. En este sitio intenté crear una página de aterrizaje simple de una empresa familiar, con el conocimiento que tenía en ese momento, sin funcionalidades."
+            },
+        "1": {
+            "text": "El segundo proyecto, un e-commerce de productos tecnológicos en el cual introduzco mis primeros pasos en el lenguaje JS, con funcionalidades simples como agregar productos al carrito y eliminarlos."
+            },
+        "2": {
+            "text": "En el tercer proyecto, un e-commerce más avanzado con mayores funcionalidades creado con React y Firestore utilizado como base de datos en la nube para manipular todos los datos de los productos y su stock."
+            },
+        "3": {
+            "text": "El cuarto proyecto, una API RESTful construida en NodeJS y ExpressJS con MongoDB para el almacenamiento, e implementación de patrones de diseño como Singleton, Factory y Repository, y bibliotecas como Handlebars para vistas."
+            }
+    }
 }

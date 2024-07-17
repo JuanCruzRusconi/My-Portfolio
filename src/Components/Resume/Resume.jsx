@@ -31,12 +31,12 @@ const Resume = () => {
                 <div className="button-download-container">
                     <button className="button-download">
                         <a className="link" href='/CV-IT-JuanCruzRusconi-English.pdf' download={''} target="_blank">
-                            Download CV English
+                            <FormattedMessage id="resume.download-button.english" />
                         </a>
                     </button>
                     <button className="button-download">
                         <a className="link" href='/CV-IT-JuanCruzRusconi-Spanish.pdf' download={''} target="_blank">
-                            Download CV Spanish
+                        <FormattedMessage id="resume.download-button.spanish" />
                         </a>
                     </button>
                 </div>

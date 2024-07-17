@@ -10,3 +10,14 @@
     height: 270px;
     width: 300px;
 }
+
+@media (width >= 300px) and (width <= 700px) {
+
+    .contact-image {    
+        height: 180px;
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+}

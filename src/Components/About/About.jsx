@@ -6,9 +6,8 @@ import "./About.css";
 
 const About = () => {
 
-    let title = 'en-us' ? "ABOUT." : "SOBRE";
-    let subtitle = "Let me introduce myself ..."
-    let text = "";
+    let title = "ABOUT.";
+    let subtitle = "Let me introduce myself ...";
 
     return (
 

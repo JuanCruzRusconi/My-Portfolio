@@ -24,11 +24,17 @@
 @media (width >= 300px) and (width <= 700px) {
 
     .title-container {
-        margin-left: 60px;
+        font-size: 18px;
+        margin-top: 100px;
+        margin-left: 40px;
+        margin-bottom: 20px;
     }
       
     .subtitle-container {
+        font-size: 16px;
+        margin-top: 20px;
         margin-left: 60px;
+        margin-left: 40px;
     }
 
 }

@@ -27,14 +27,15 @@
 
     .about-text-container {
         height: auto;
-        font-size: 17px;
+        width: auto;
+        font-size: 16px;
         display: flex;
         flex-direction: column;
         gap: 12px;
         align-items: center;
-        margin-top: 70px;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
         margin-bottom: 40px;
     }
     
@@ -49,6 +50,8 @@
     .about-image {
         height: 270px;
         width: 300px;
+        margin-top: -20px;
+        margin-bottom: 90px;
     }
 
 }

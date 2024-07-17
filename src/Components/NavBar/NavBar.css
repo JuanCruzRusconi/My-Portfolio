@@ -85,3 +85,54 @@
     width: 22px;
     padding-right: 7px;
 }
+
+@media (width >= 300px) and (width <= 700px) {
+
+    .navbar-container {
+        height: 50px;
+        width: 430px;
+        top: 0;
+        position: fixed;
+    }
+
+    .section-logo-container{
+        display: flex;
+        flex: 1.5;
+        margin-left: 20px;
+    }
+
+    .sections-container {
+        display: flex;
+        flex: 1.5;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: -20px;
+    }
+
+
+    .navbar-logo {
+        color: #D4FFFF;
+        font-size: 14px;
+        font-weight: 900;
+        width: 45px;
+    }
+
+    .navbar-icons {
+        height: 14px;
+        width: 14px;
+        padding-right: 7px;
+    }
+
+    .navbar-items {
+        color: aliceblue;
+        font-size: 8px;
+        letter-spacing: 4px;
+        text-decoration: none;
+        outline: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}

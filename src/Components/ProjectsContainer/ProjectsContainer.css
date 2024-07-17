@@ -20,11 +20,10 @@
 @media (width >= 300px) and (width <= 700px) {
   
   	.projects-container {
-		height: 1700px;
 		width: auto;
 		display: flex;
 		flex-direction: column;
-		margin-top: 40px;
+		margin-top: 800px;
 		margin-bottom: 40px;
 		margin-left: 40px;
 		margin-right: 40px;

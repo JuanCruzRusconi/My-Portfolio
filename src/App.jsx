@@ -1,5 +1,5 @@
-import { useContext } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { LangProvider } from './context/langContext.jsx';
 
 import Me from './Components/Me/Me';
 import Menu from './Components/Menu/Menu';
@@ -10,15 +10,9 @@ import Contact from './Components/Contact/Contact';
 import ProjectsContainer from './Components/ProjectsContainer/ProjectsContainer';
 import Footer from './Components/Footer/Footer';
 
-import { LangProvider } from './context/langContext.jsx';
-import { langContext } from './context/langContext.jsx';
-
 import './App.css';
 
 const App = () => {
-
-    const languaje = useContext(langContext);
-    console.log(languaje);
 
     return (
 
