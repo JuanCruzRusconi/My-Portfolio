@@ -69,11 +69,13 @@
 
 .navbar_flags_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     height: 50px;
-    width: 22px;
-    gap: 5px;
+    width: 50px;
+    gap: 15px;
+    margin-top: 25px;
+    opacity: .9;
 }
 
 .uk_container {
@@ -84,6 +86,18 @@
 .sp_container {
     height: 25px;
     width: 25px;    
+}
+
+.uk_container:hover {
+    color: #D4FFFF;
+    transition: 0.5s;
+    transform: scale(110%);
+}
+
+.sp_container:hover {
+    color: #D4FFFF;
+    transition: 0.5s;
+    transform: scale(110%);
 }
 
 .flags_button {
@@ -148,6 +162,7 @@
         height: 400px;
         width: 100%; 
         padding-top: 10px;
+        padding-bottom: 10px;
         z-index: 1100;
     }
 
@@ -179,8 +194,9 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 30px;
+        height: 20px;
         width: 22px;
+        margin-top: 0px;
         gap: 40px;
     }
 
