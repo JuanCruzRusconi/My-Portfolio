@@ -65,15 +65,12 @@ export const Form = () => {
             <form className="form" ref={form} onSubmit={sendEmail}>
                 <div className='form-group-input'>
                     <input
-                    className="form-input"
-                    type="text" 
-                    name="name"
-                    placeholder="Name"
-                    onChange={handleOnChange}
-                    value={formData.name}
-                    onKeyUp={handleValid}
-                    onBlur={handleValid}
-                    regularExpression={RegularExpressions.name}
+                        className="form-input"
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        onChange={handleOnChange}
+                        value={formData.name}
                     />
                 </div>
                 
@@ -106,3 +103,9 @@ export const Form = () => {
 }
 
 export default Form;
+
+/*
+    onKeyUp={handleValid}
+    onBlur={handleValid}
+    regularExpression={RegularExpressions.name}
+*/

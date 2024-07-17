@@ -34,6 +34,9 @@
 
     "form.title": "Send me an email.",
     "form.send-button": "Send",
+    "form.input.name": "Name",
+    "form.input.email": "Email",
+    "form.input.text": "Type your message.",
 
     "projects": {
         "0": "My first project, an introduction to myself as a programmer. In this site I tried to create a simple landing page of a family company, with the knowledge that I had at these moment, without functionalities.",

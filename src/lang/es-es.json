@@ -35,6 +35,9 @@
 
     "form.title": "Envíame un email.",
     "form.send-button": "Enviar",
+    "form.input.name": "Nombre",
+    "form.input.email": "Email",
+    "form.input.text": "Escriba su mensaje.",
 
     "projects": {
         "0": {
