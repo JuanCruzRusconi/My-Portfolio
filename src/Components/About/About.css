@@ -26,7 +26,7 @@
 @media (width >= 300px) and (width <= 700px) {
 
     .about-text-container {
-        height: auto;
+        height: 770px;
         width: auto;
         font-size: 16px;
         display: flex;
@@ -51,7 +51,7 @@
         height: 270px;
         width: 300px;
         margin-top: -20px;
-        margin-bottom: 90px;
+        margin-bottom: 20px;
     }
 
 }

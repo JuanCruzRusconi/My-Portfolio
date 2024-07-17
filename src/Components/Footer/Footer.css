@@ -66,20 +66,21 @@ span {
     .footer-container {
         height: 40px;
         width: 430px;
-        position: absolute;
+        position: static;
         bottom: 0;
+        left: 0;
+        z-index: 1000;   
     }
 
     .footer-icons {
         height: 28px;
         width: 28px;
-        margin-top: -10px;
+        margin-top: 30px;
     }
 
     .copyright-container {
         font-size: 10px;
-        margin-top: -10px
-        
+        margin-top: 10px
     }
 
     .copyright-signature {

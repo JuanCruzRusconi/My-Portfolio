@@ -19,7 +19,7 @@ body {
 }
 #root:before {
     content: '';
-    position: absolute;
+    position: fixed;
     background-color: black;
     opacity: 0.5;
     top: 0;

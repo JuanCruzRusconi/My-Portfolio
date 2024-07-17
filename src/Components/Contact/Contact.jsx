@@ -25,9 +25,11 @@ const Contact = () => {
                     />
                 }
             />
-            <Form />
-            <div className="contact-image-container">
-                <img className="contact-image" src={contactLogo} alt="contactLogo" />
+            <div className="contact-container">
+                <Form />
+                <div className="contact-image-container">
+                    <img className="contact-image" src={contactLogo} alt="contactLogo" />
+                </div>
             </div>
         </>
         

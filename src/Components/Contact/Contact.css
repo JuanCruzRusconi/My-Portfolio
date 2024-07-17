@@ -13,6 +13,9 @@
 
 @media (width >= 300px) and (width <= 700px) {
 
+    .contact-container { 
+        height: 622px;
+    }
     .contact-image {    
         height: 180px;
         width: 200px;

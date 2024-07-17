@@ -33,8 +33,8 @@ const Me = ({children}) => {
                     </h2>
                     {children}
                 </div>
-                <div className="me-image">
-                    <img className="home-image" src={homeLogo2} alt="homeLogo" />
+                <div className="me-image-container">
+                    <img className="me-image" src={homeLogo2} alt="homeLogo" />
                 </div>
             </div>
 

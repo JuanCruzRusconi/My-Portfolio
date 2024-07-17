@@ -91,8 +91,10 @@
     .navbar-container {
         height: 50px;
         width: 430px;
+        position: static;
         top: 0;
-        position: fixed;
+        left: 0;
+        z-index: 1000;
     }
 
     .section-logo-container{

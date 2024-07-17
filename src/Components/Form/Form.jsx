@@ -71,7 +71,6 @@ export const Form = () => {
                     onBlur={handleValid}
                     regularExpression={RegularExpressions.name}
                     />
-                    <FontAwesomeIcon className='form-icon' icon={faSquareCheck} />
                 </div>
                 
                 <input
