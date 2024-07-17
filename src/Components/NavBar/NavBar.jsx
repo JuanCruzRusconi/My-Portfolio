@@ -2,6 +2,9 @@ import { NavLink } from "react-router-dom";
 import { FormattedMessage } from 'react-intl';
 import { useContext } from "react";
 import { langContext } from "../../context/langContext";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import homeIcon from "../../assets/homeIcon.png";
 import aboutIcon from "../../assets/aboutIcon.png";
@@ -12,24 +15,37 @@ import contactIcon from "../../assets/contactIcon.png";
 import ukIcon from '../../assets/United-Kingdom.png';
 import spIcon from '../../assets/Spain.png';
 
-import "./NavBar.css";
+import Style from "./NavBar.module.css";
 
 
 const NavBar = () => {
 
     const languaje = useContext(langContext);
 
+    const [movilMenu, setMovilMenu ] = useState(false);
+
+    const handleMenu = () => {
+        setMovilMenu(!movilMenu);
+    };
+
     return (
 
-        <div className="navbar-container">
-            <div className="section-logo-container">
-                <NavLink className="navbar-items" to={'/'}>
-                    <h2 className="navbar-logo">JCR.</h2>
+        <div className={movilMenu ? Style.navbar_container_open : Style.navbar_container_close}>
+            <div className={Style.section_logo_container}>
+                <NavLink className={Style.navbar_items} to={'/'}>
+                    <h2 className={Style.navbar_logo}>JCR.</h2>
                 </NavLink>
             </div>
-            <div className="sections-container">
-                <NavLink className="navbar-items" to={'/'}>
-                    <img className="navbar-icons" src={homeIcon} alt="home" />
+            <div className={Style.navbar_menu_icon} onClick={()=> handleMenu()}>
+                { movilMenu ?
+                    (<FontAwesomeIcon icon={faTimes} size="2x" />)
+                    :
+                    (<FontAwesomeIcon icon={faBars} size="2x" />)
+                }
+            </div>
+            <div className={movilMenu ? Style.sections_container_open : Style.sections_container_close}>
+                <NavLink className={Style.navbar_items} to={'/'}>
+                    <img className={Style.navbar_icons} src={homeIcon} alt="home" />
                     <h2>
                         <FormattedMessage
                             id="navbar.home"
@@ -37,8 +53,8 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
-                <NavLink className="navbar-items" to='/about'>
-                    <img className="navbar-icons" src={aboutIcon} alt="home" />
+                <NavLink className={Style.navbar_items} to='/about'>
+                    <img className={Style.navbar_icons} src={aboutIcon} alt="home" />
                     <h2>
                         <FormattedMessage
                             id="navbar.about"
@@ -46,8 +62,8 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
-                <NavLink className="navbar-items" to='/projects'>
-                    <img className="navbar-icons" src={projectsIcon} alt="home" />
+                <NavLink className={Style.navbar_items} to='/projects'>
+                    <img className={Style.navbar_icons} src={projectsIcon} alt="home" />
                     <h2>
                         <FormattedMessage
                             id="navbar.projects"
@@ -55,8 +71,8 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
-                <NavLink className="navbar-items" to='/resume'>
-                    <img className="navbar-icons" src={resumeIcon} alt="home" />
+                <NavLink className={Style.navbar_items} to='/resume'>
+                    <img className={Style.navbar_icons} src={resumeIcon} alt="home" />
                     <h2>
                         <FormattedMessage
                             id="navbar.resume"
@@ -64,8 +80,8 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
-                <NavLink className="navbar-items" to='/contact'>
-                    <img className="navbar-icons" src={contactIcon} alt="home" />
+                <NavLink className={Style.navbar_items} to='/contact'>
+                    <img className={Style.navbar_icons} src={contactIcon} alt="home" />
                     <h2>
                         <FormattedMessage
                             id="navbar.contact"
@@ -73,15 +89,15 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
-                <div className="navbar-flags-container">
-                    <div className="uk-container">
-                        <button className="flags-button" onClick={() => languaje.handleLanguaje('en-us')}>
-                            <img className="navbar-flags" src={ukIcon} alt="" />
+                <div className={Style.navbar_flags_container}>
+                    <div className={Style.uk_container}>
+                        <button className={Style.flags_button} onClick={() => languaje.handleLanguaje('en-us')}>
+                            <img className={Style.navbar_flags} src={ukIcon} alt="" />
                         </button>
                     </div>
-                    <div className="sp-container">
-                        <button className="flags-button" onClick={() => languaje.handleLanguaje('es-es')}>
-                            <img className="navbar-flags" src={spIcon} alt="" />
+                    <div className={Style.sp_container}>
+                        <button className={Style.flags_button} onClick={() => languaje.handleLanguaje('es-es')}>
+                            <img className={Style.navbar_flags} src={spIcon} alt="" />
                         </button>
                     </div>
                 </div>  

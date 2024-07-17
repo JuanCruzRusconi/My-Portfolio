@@ -49,6 +49,9 @@ export const Form = () => {
             },
         );
     };
+
+    let title = "Send me an email.";
+    let button = "Send";
   // VALIDAR CAMPOS DEL FORMMULARIO - EVITAR QUE SE ENVIE VACIO
     return (
         
@@ -56,6 +59,7 @@ export const Form = () => {
             <h3 className="form-title">
                 <FormattedMessage 
                     id="form.title"
+                    defaultMessage={title}
                 />
             </h3>
             <form className="form" ref={form} onSubmit={sendEmail}>
@@ -90,7 +94,10 @@ export const Form = () => {
                     value={formData.message}
                 />
                 <button className="form-button">
-                    <FormattedMessage id="form.send-button" />
+                    <FormattedMessage 
+                        id="form.send-button" 
+                        defaultMessage={button}
+                    />
                 </button>
             </form>
         </section>

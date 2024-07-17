@@ -6,6 +6,8 @@ import "./Card.css";
 
 const Card = memo (( {project} ) => {
 
+    let button = "To project";
+
     return (
 
         <div key={project.id} className="card">
@@ -14,7 +16,10 @@ const Card = memo (( {project} ) => {
             <p className="project-text">{project.text}</p>
             <NavLink className="project-button-navlink" to={project.link} target="_blank" rel="noopener noreferrer">
                 <button className="project-button">
-                    <FormattedMessage id="card.project-button"/>
+                    <FormattedMessage 
+                        id="card.project-button"
+                        defaultMessage={button}
+                    />
                 </button>
             </NavLink>
         </div>

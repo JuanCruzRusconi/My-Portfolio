@@ -8,6 +8,8 @@ const Resume = () => {
 
     let title = "RESUME.";
     let subtitle = "My recent resume.";
+    let buttonEn = "Download CV - English";
+    let buttonEs = "Download CV - Spanish";
 
     return (
 
@@ -16,11 +18,13 @@ const Resume = () => {
                 title={
                     <FormattedMessage 
                         id="title.resume.first"
+                        defaultMessage={title}
                     />
                 }
                 subtitle={
                     <FormattedMessage 
                         id="title.resume.second"
+                        defaultMessage={subtitle}
                     />
                 }
             />
@@ -31,12 +35,18 @@ const Resume = () => {
                 <div className="button-download-container">
                     <button className="button-download">
                         <a className="link" href='/CV-IT-JuanCruzRusconi-English.pdf' download={''} target="_blank">
-                            <FormattedMessage id="resume.download-button.english" />
+                            <FormattedMessage 
+                                id="resume.download-button.english" 
+                                defaultMessage={buttonEn}
+                            />
                         </a>
                     </button>
                     <button className="button-download">
                         <a className="link" href='/CV-IT-JuanCruzRusconi-Spanish.pdf' download={''} target="_blank">
-                        <FormattedMessage id="resume.download-button.spanish" />
+                        <FormattedMessage 
+                            id="resume.download-button.spanish" 
+                            defaultMessage={buttonEs}
+                        />
                         </a>
                     </button>
                 </div>

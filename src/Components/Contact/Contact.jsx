@@ -17,11 +17,13 @@ const Contact = () => {
                 title={
                     <FormattedMessage 
                         id="title.contact.first"
+                        defaultMessage={title}
                     />
                 }
                 subtitle={
                     <FormattedMessage 
                         id="title.contact.second"
+                        defaultMessage={subtitle}
                     />
                 }
             />

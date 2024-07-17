@@ -5,7 +5,11 @@ import { FormattedMessage } from "react-intl";
 
 import "./Me.css";
 
-const Me = ({children}) => {
+const Me = ({ children }) => {
+
+    let greeting = "Hi!, I'm";
+    let name = "Juan Cruz Rusconi";
+    let spec = "Full Stack Developer";
 
     return (
 
@@ -14,19 +18,19 @@ const Me = ({children}) => {
                     <h2 className="me-intro">
                         <FormattedMessage
                             id="me.greeting"
-                            defaultMessage="Hi!, I'm"
+                            defaultMessage={greeting}
                         />
                     </h2>
                     <h1 className="me-name">
                         <FormattedMessage
                             id="me.name"
-                            defaultMessage="Juan Cruz Rusconi,"
+                            defaultMessage={name}
                         />
                     </h1>
                     <h2 className="me-intro">
                         <FormattedMessage
                             id="me.spec"
-                            defaultMessage="Full Stack Developer."
+                            defaultMessage={spec}
 
                         />
                         <strong className="inserction point">|</strong>
