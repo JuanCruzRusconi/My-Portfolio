@@ -70,21 +70,21 @@
     border: none;
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
 
     .resume-container {
+        height: auto;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 642px;
     }
 
     .resume-image-container {
         margin-bottom: 10px;
     }
     
-
     .resume-image {
         flex: 1;
         height: 400px;
@@ -93,7 +93,7 @@
     }
 
     .resume-image:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
         transition: 1s;
         height: 500px;
         width: 380px;
@@ -105,7 +105,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 200px;
+        height: 187px;
         width: 430px;
         margin-top: 15px;
         gap: 20px;

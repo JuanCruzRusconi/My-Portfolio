@@ -114,11 +114,11 @@
     padding-right: 7px;
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
 
     .navbar_container_close {
         height: 50px;
-        width: 430px;
+        width: auto;
         position: static;
         top: 0;
         left: 0;
@@ -128,7 +128,7 @@
     .navbar_container_open {
         background-color: rgb(0,0,0,0.8);
         height: 50px;
-        width: 430px;
+        width: auto;
         position: static;
         top: 0;
         left: 0;

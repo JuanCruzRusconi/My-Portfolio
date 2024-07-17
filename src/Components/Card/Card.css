@@ -72,7 +72,7 @@
 
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
     
     .card {
         height: 300px;

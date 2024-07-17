@@ -61,11 +61,11 @@ span {
     align-content: center;
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
 
     .footer-container {
         height: 40px;
-        width: 430px;
+        width: auto;
         position: static;
         bottom: 0;
         left: 0;
@@ -80,7 +80,8 @@ span {
 
     .copyright-container {
         font-size: 10px;
-        margin-top: 10px
+        margin-top: 10px;
+        margin-left: 20px;
     }
 
     .copyright-signature {

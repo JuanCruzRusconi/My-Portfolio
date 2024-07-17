@@ -1,6 +1,15 @@
 .app-container {
 	height: 100vh;
-	width: auto;
+	width: 100%;
   	position: relative;
 }
+
+@media (width >= 300px) and (width <= 768px) {
+
+	.app-container {
+		overflow-x: hidden;
+	}
+
+}
+
 

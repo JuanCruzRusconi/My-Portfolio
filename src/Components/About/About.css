@@ -26,17 +26,18 @@
 @media (width >= 300px) and (width <= 700px) {
 
     .about-text-container {
-        height: 770px;
+        height: auto;
         width: auto;
-        font-size: 16px;
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        justify-content: center;
         align-items: center;
+        font-size: 16px;
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
         margin-bottom: 40px;
+        gap: 12px;
     }
     
     .about-image-container {

@@ -17,32 +17,33 @@
   	gap: 20px;
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
   
   	.projects-container {
-		height: 2200px;
+		height: auto;
 		width: auto;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		margin-top: 40px;
 		margin-bottom: 55px;
 		margin-left: 40px;
 		margin-right: 40px;
 		padding: 0px 10px 0px 10px;
-		align-items: center;
-		justify-content: center;
   	}
 
   	.projects-cards-container {
+		height: auto;
 		width: auto;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		margin-top: 10px;
     	margin-left: 10px;
     	margin-right: 10px;
     	margin-bottom: 10px;
-		align-items: center;
-		justify-content: center;
 		gap: 40px;
   	}
 

@@ -28,7 +28,7 @@ body {
     right: 0;
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
 
     #root {
         max-width: 100%;
