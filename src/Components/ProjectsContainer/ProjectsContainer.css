@@ -48,3 +48,35 @@
   	}
 
 }
+
+@media (width >= 769px) and (width <= 1000px) {
+
+	.projects-container {
+		height: auto;
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 40px;
+		margin-bottom: 55px;
+		margin-left: 240px;
+		margin-right: 240px;
+		padding: 0px 10px 0px 10px;
+  	}
+
+  	.projects-cards-container {
+		height: auto;
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 10px;
+    	margin-left: 10px;
+    	margin-right: 10px;
+    	margin-bottom: 10px;
+		gap: 40px;
+  	}
+
+}

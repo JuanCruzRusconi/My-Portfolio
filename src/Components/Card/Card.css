@@ -5,7 +5,7 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    opacity: 0.8;
+    opacity: 0.7;
     transition: all 0.5s ease 0s;
     border-radius: 15px 15px 70px 15px;
 }
@@ -77,6 +77,46 @@
     .card {
         height: 300px;
         width: auto;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 3px 3px 12px 4px #E3C7FF;
+        transition: all 0.7s ease 0s;
+        opacity: 1;
+        flex: 1.05;
+    }
+
+    .project-title {
+        margin-top: 20px;
+    }
+
+    .project-image {
+        width: 350px;
+        height: 250px;
+        border-radius: 15px 15px 5px 15px;
+    }
+
+    .project-text {
+        margin-right: 1.5rem;
+    }
+
+    .project-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (width >= 769px) and (width <= 1000px) {
+        
+    .card {
+        height: 300px;
+        width: auto;
+        max-width: 350px;
         display: flex;
         flex-direction: column;
     }

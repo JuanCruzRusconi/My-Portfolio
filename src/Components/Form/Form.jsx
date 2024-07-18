@@ -1,6 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useContext, useRef } from 'react';
 import { FormattedMessage } from "react-intl";
 import { useState } from "react";
+import { langContext } from '../../context/langContext';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 import RegularExpressions from '../../expressions.json';
@@ -13,6 +14,8 @@ import "./Form.css"
 export const Form = () => {
     
     const form = useRef();
+
+    const { locale } = useContext(langContext);
 
     const [ formData, setFormData ] = useState({ name: '', email: '', message: '' })
   
@@ -68,7 +71,7 @@ export const Form = () => {
                         className="form-input"
                         type="text"
                         name="name"
-                        placeholder="Name"
+                        placeholder={locale === 'en-us' ? "Name" : "Nombre"}
                         onChange={handleOnChange}
                         value={formData.name}
                     />
@@ -86,7 +89,7 @@ export const Form = () => {
                     className="form-textarea"
                     type="text"
                     name="message"
-                    placeholder="Type your message."
+                    placeholder={locale === 'en-us' ? "Type your message." : "Escriba su mensaje."}
                     onChange={handleOnChange}
                     value={formData.message}
                 />

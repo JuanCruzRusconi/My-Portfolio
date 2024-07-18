@@ -24,7 +24,7 @@ const Menu = () => {
                 <h2>||</h2>
                 <h2 className="menu-item">Docker</h2>
                 <h2>||</h2>
-                <h2 className="menu-item">Bootstrap</h2>
+                <h2 className="menu-item">MaterialUI</h2>
                 <h2>||</h2>
                 <h2 className="menu-item">Tailwind</h2>                    
             </div>

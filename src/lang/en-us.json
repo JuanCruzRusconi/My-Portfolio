@@ -33,21 +33,7 @@
     "resume.download-button.spanish": "Download CV - Spanish",
 
     "form.title": "Send me an email.",
-    "form.send-button": "Send",
-    "form.input.name": "Name",
-    "form.input.email": "Email",
-    "form.input.text": "Type your message.",
-
-    "projects": {
-        "0": "My first project, an introduction to myself as a programmer. In this site I tried to create a simple landing page of a family company, with the knowledge that I had at these moment, without functionalities.",
-            
-        "1": "The second project, an e-commerce of tech products in which I introduce my first steps in JS language, with simple functionalities as add to cart products and delete them from it.",
-            
-        "2": "In the third project, a more advanced e-commerce with major functionalities created with React and Firestore used as cloud DB to manipulate all data of the products and their stock.",
-            
-        "3": "The fourth project, a RESTful API constructed in NodeJS and ExpressJS with MongoDB for storage, and implementation of design patterns such as Singleton, Factory and Repository, and libraries such as Handlebars for views."
-               
-    }
+    "form.send-button": "Send"
         
 }
  

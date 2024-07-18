@@ -1,8 +1,4 @@
 import { FormattedMessage } from "react-intl";
-import LandingPage from "../../assets/HTML-CSS.webp";
-import JavaScript from "../../assets/JavaScript.jpeg";
-import React from "../../assets/React.png"
-import RestAPI from "../../assets/RestAPI.png";
 import Card from "../Card/Card";
 import Title from "../Title/Title";
 import Projects from "../../projects.json"

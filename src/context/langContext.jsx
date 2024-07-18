@@ -45,7 +45,7 @@ const LangProvider = ({children}) => {
 
         return (
             
-            <langContext.Provider value={{handleLanguaje: handleLanguaje}}>
+            <langContext.Provider value={{handleLanguaje: handleLanguaje, locale}}>
                 <IntlProvider locale={locale} messages={messages}>
                     {children}
                 </IntlProvider>

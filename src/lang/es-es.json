@@ -34,23 +34,6 @@
     "resume.download-button.spanish": "Descargar CV - Español",
 
     "form.title": "Envíame un email.",
-    "form.send-button": "Enviar",
-    "form.input.name": "Nombre",
-    "form.input.email": "Email",
-    "form.input.text": "Escriba su mensaje.",
-
-    "projects": {
-        "0": {
-            "text": "Mi primer proyecto, una introducción a mí mismo como programador. En este sitio intenté crear una página de aterrizaje simple de una empresa familiar, con el conocimiento que tenía en ese momento, sin funcionalidades."
-            },
-        "1": {
-            "text": "El segundo proyecto, un e-commerce de productos tecnológicos en el cual introduzco mis primeros pasos en el lenguaje JS, con funcionalidades simples como agregar productos al carrito y eliminarlos."
-            },
-        "2": {
-            "text": "En el tercer proyecto, un e-commerce más avanzado con mayores funcionalidades creado con React y Firestore utilizado como base de datos en la nube para manipular todos los datos de los productos y su stock."
-            },
-        "3": {
-            "text": "El cuarto proyecto, una API RESTful construida en NodeJS y ExpressJS con MongoDB para el almacenamiento, e implementación de patrones de diseño como Singleton, Factory y Repository, y bibliotecas como Handlebars para vistas."
-            }
-    }
+    "form.send-button": "Enviar"
+    
 }

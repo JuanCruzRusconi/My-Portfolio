@@ -3,28 +3,40 @@
         "id": 0,
         "image": "./public/HTML-CSS.webp",
         "title": "Landing Page",
-        "text": "My first project, an introduction to myself as a programmer. In this site I triyed to create a simple landing page of a family company, with the knowedge that I had at these moment, without funcionalities.",
+        "text": { 
+            "en": "My first project, an introduction to myself as a programmer. In this site I triyed to create a simple landing page of a family company, with the knowedge that I had at these moment, without funcionalities.",
+            "es": "Mi primer proyecto, una introducción a mí mismo como programador. En este sitio intenté crear una página de aterrizaje simple de una empresa familiar, con el conocimiento que tenía en ese momento, sin funcionalidades."
+            },
         "link": "https://electricidad-rusconi.netlify.app/"
     },
     { 
         "id": 1, 
         "image": "./public/JavaScript.jpeg",
         "title": "JS Ecommerce", 
-        "text": "The second project, an e-commerce of tech products in which I introduce my firsts steps in JS language, with simple functionalities as add to cart products and delete it from it.", 
+        "text": {
+            "en": "The second project, an e-commerce of tech products in which I introduce my firsts steps in JS language, with simple functionalities as add to cart products and delete it from it.", 
+            "es": "El segundo proyecto, un e-commerce de productos tecnológicos en el cual introduzco mis primeros pasos en el lenguaje JS, con funcionalidades simples como agregar productos al carrito y eliminarlos."
+            },
         "link": "https://usaimports.netlify.app/" 
     },
     { 
         "id": 2, 
         "image": "./public/React.png",
         "title": "React Ecommerce", 
-        "text": "In the third project, a more advandecd e-commerce with mayor funcionalities created with React and Firestore used as cloud DB to manipulate all data of the products and there stock.", 
+        "text": {
+            "en": "In the third project, a more advandecd e-commerce with mayor funcionalities created with React and Firestore used as cloud DB to manipulate all data of the products and there stock.", 
+            "es": "En el tercer proyecto, un e-commerce más avanzado con mayores funcionalidades creado con React y Firestore utilizado como base de datos en la nube para manipular todos los datos de los productos y su stock."
+            },
         "link": "https://e-commerce-project-reactjs.netlify.app" 
     },
     { 
         "id": 3, 
         "image": "./public/RestAPI.png",
         "title": "BackEnd Ecommerce", 
-        "text": "The fourth project, a RESTful API constructed in NodeJS and ExpressJS with MongoDB for storage, and implementation of design patterns as Singleton, Factory and Repository, and libraries as Handlebars for views.", 
+        "text": {
+            "en": "The fourth project, a RESTful API constructed in NodeJS and ExpressJS with MongoDB for storage, and implementation of design patterns as Singleton, Factory and Repository, and libraries as Handlebars for views.", 
+            "es": "El cuarto proyecto, una API RESTful construida en NodeJS y ExpressJS con MongoDB para el almacenamiento, la implementación de patrones de diseño como Singleton, Factory y Repository, y bibliotecas como Handlebars para las vistas."
+            },
         "link": "https://github.com/JuanCruzRusconi/BackEnd-Proyect" 
     }
 ]
