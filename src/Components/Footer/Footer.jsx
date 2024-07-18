@@ -18,7 +18,7 @@ const Footer = () => {
                 <NavLink to="https://github.com/JuanCruzRusconi?tab=repositories" target="_blank" rel="noopener noreferrer">
                     <img className="footer-icons" src={githubIcon} alt="github" />
                 </NavLink>
-                <NavLink to="https://wa.me/+5492215977998?text=Hola%20Juan%20Cruz!%20Te%20escribo%20a%20través%20de%20tu%20portfolio%20web" target="_blank" rel="noopener noreferrer">
+                <NavLink to="https://wa.me/+5492215977998?text=Hola%20Juan%20Cruz!%20Te%20escribo%20a%20través%20de%20tu%20portfolio%20web." target="_blank" rel="noopener noreferrer">
                     <img className="footer-icons" src={whatsappIcon} alt="github" />
                 </NavLink>
             </div>
