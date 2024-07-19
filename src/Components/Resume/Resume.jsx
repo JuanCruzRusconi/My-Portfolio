@@ -13,8 +13,8 @@ const Resume = () => {
 
     let title = "RESUME.";
     let subtitle = "My recent resume.";
-    let buttonEn = "Download CV - English";
-    let buttonEs = "Download CV - Spanish";
+    let buttonEn = "Download CV";
+    let buttonEs = "Descargar CV";
 
     return (
 
@@ -38,22 +38,25 @@ const Resume = () => {
                     <img className="resume-image" src={locale === 'en-us' ? resumeImageEn : resumeImageEs} alt="resume" />
                 </div>
                 <div className="button-download-container">
-                    <button className="button-download">
-                        <a className="link" href='/CV-IT-JuanCruzRusconi-English.pdf' download={''} target="_blank">
-                            <FormattedMessage 
-                                id="resume.download-button.english" 
-                                defaultMessage={buttonEn}
-                            />
-                        </a>
-                    </button>
-                    <button className="button-download">
-                        <a className="link" href='/CV-IT-JuanCruzRusconi-Spanish.pdf' download={''} target="_blank">
-                        <FormattedMessage 
-                            id="resume.download-button.spanish" 
-                            defaultMessage={buttonEs}
-                        />
-                        </a>
-                    </button>
+                    {locale === 'en-us' ?
+                        <button className="button-download">
+                            <a className="link" href='/CV-IT-JuanCruzRusconi-English.pdf' download={''} target="_blank">
+                                <FormattedMessage
+                                    id="resume.download.button"
+                                    defaultMessage={buttonEn}
+                                />
+                            </a>
+                        </button>
+                        :
+                        <button className="button-download">
+                            <a className="link" href='/CV-IT-JuanCruzRusconi-Spanish.pdf' download={''} target="_blank">
+                                <FormattedMessage
+                                    id="resume.download.button"
+                                    defaultMessage={buttonEs}
+                                />
+                            </a>
+                        </button>
+                    }       
                 </div>
             </div>
         </>

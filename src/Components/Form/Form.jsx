@@ -4,7 +4,7 @@ import { useState } from "react";
 import { langContext } from '../../context/langContext';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
-import RegularExpressions from '../../expressions.json';
+import RegularExpressions from '../../db/expressions.json';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';

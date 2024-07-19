@@ -1,7 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import IconsMenu from "../IconsMenu/IconsMenu";
-import homeLogo1 from "../../assets/homeLogo1.png";
-import homeLogo2 from "../../assets/homeLogo2.png";
+import homeLogo from "../../assets/homeLogo.png";
 
 import "./Me.css";
 
@@ -38,7 +37,7 @@ const Me = ({ children }) => {
                     {children}
                 </div>
                 <div className="me-image-container">
-                    <img className="me-image" src={homeLogo2} alt="homeLogo" />
+                    <img className="me-image" src={homeLogo} alt="homeLogo" />
                 </div>
             </div>
             <div className="icons-menu">

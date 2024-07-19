@@ -1,16 +1,16 @@
-import htmlIcon from "../../../public/html5-solid.svg";
-import cssIcon from "../../../public/css3-solid.svg";
-import javascriptIcon from "../../../public/js-solid.svg";
-import reactIcon from "../../../public/react-solid2.svg";
-import mongodbIcon from "../../../public/mongodb-solid.svg";
-import expressIcon from "../../../public/express-solid2.svg";
-import nodeIcon from "../../../public/node-solid.svg";
-import dockerIcon from "../../../public/docker-solid.svg";
-import gitIcon from "../../../public/git-solid.svg";
-import githubIcon from "../../../public/github-solid.svg";
-import gitlabIcon from "../../../public/gitlab-solid.svg";
-import typescriptIcon from "../../../public/typescript-solid.svg"
-import codeIcon from "../../../public/code-solid.svg";
+import htmlIcon from "../../../public/svgs/html5-solid.svg";
+import cssIcon from "../../../public/svgs/css3-solid.svg";
+import javascriptIcon from "../../../public/svgs/js-solid.svg";
+import reactIcon from "../../../public/svgs/react-solid2.svg";
+import mongodbIcon from "../../../public/svgs/mongodb-solid.svg";
+import expressIcon from "../../../public/svgs/express-solid.svg";
+import nodeIcon from "../../../public/svgs/node-solid.svg";
+import dockerIcon from "../../../public/svgs/docker-solid.svg";
+import gitIcon from "../../../public/svgs/git-solid.svg";
+import githubIcon from "../../../public/svgs/github-solid.svg";
+import gitlabIcon from "../../../public/svgs/gitlab-solid.svg";
+import typescriptIcon from "../../../public/svgs/typescript-solid.svg"
+import codeIcon from "../../../public/svgs/code-solid.svg";
 
 import "./IconsMenu.css";
 

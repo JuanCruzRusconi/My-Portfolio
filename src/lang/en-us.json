@@ -29,8 +29,7 @@
 
     "card.project-button": "To project",
 
-    "resume.download-button.english": "Download CV - English",
-    "resume.download-button.spanish": "Download CV - Spanish",
+    "resume.download.button": "Download CV",
 
     "form.title": "Send me an email.",
     "form.send-button": "Send"

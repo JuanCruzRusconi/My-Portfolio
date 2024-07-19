@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
 import Card from "../Card/Card";
 import Title from "../Title/Title";
-import Projects from "../../projects.json"
+import Projects from "../../db/projects.json";
 
 import "./ProjectsContainer.css";
 
