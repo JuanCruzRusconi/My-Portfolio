@@ -1,7 +1,7 @@
 .me-container {
     display: flex;
     flex-direction: row;
-    margin-top: 75px;
+    margin-top: 40px;
 }
   
 .me {
@@ -131,6 +131,8 @@
         width: 420px;
         height: 300px;
     }
+
+
 }
 
 @media (width >= 769px) and (width <= 1000px) {

@@ -1,7 +1,7 @@
+import { FormattedMessage } from "react-intl";
+import IconsMenu from "../IconsMenu/IconsMenu";
 import homeLogo1 from "../../assets/homeLogo1.png";
 import homeLogo2 from "../../assets/homeLogo2.png";
-
-import { FormattedMessage } from "react-intl";
 
 import "./Me.css";
 
@@ -12,7 +12,7 @@ const Me = ({ children }) => {
     let spec = "Full Stack Developer";
 
     return (
-
+        <>
             <div className="me-container">
                 <div className="me">
                     <h2 className="me-intro">
@@ -41,6 +41,10 @@ const Me = ({ children }) => {
                     <img className="me-image" src={homeLogo2} alt="homeLogo" />
                 </div>
             </div>
+            <div className="icons-menu">
+                <IconsMenu />
+            </div>
+        </>
 
     )
 }

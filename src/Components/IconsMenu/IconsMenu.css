@@ -1,0 +1,102 @@
+.icons-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+    gap: 30px;
+    
+
+}
+
+.icon-item {
+    color:  rgb(67, 89, 112);
+    height: 40px;
+    width: 40px;
+}
+
+.icon-item-ts {
+    height: 35px;
+    width: 35px;
+}
+
+.icon-item-ex {
+    height: 44px;
+    width: 44px;
+}
+
+.icon-item-nd {
+    height: 50px;
+    width: 50px;
+}
+
+@media (width >= 300px) and (width <= 768px) {
+
+    .icons-menu-container {
+        flex-wrap: wrap;
+        height: 80px;
+        width: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        gap: 22px;
+    }
+    .icon-item {
+        height: 25px;
+        width: 25px;
+    }
+
+    .icon-item-ts {
+        height: 23px;
+        width: 23px;
+    }
+
+    .icon-item-ex {
+        height: 27px;
+        width: 27px;
+    }
+
+    .icon-item-nd {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+@media (width >= 769px) and (width <= 1000px) {
+
+    .icons-menu-container {
+        flex-wrap: wrap;
+        height: 80px;
+        width: auto;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 30px;
+        gap: 22px;
+    }
+
+    .icon-item {
+        height: 32px;
+        width: 32px;
+    }
+
+    .icon-item-ts {
+        height: 30px;
+        width: 30px;
+    }
+
+    .icon-item-ex {
+        height: 35px;
+        width: 35px;
+    }
+
+    .icon-item-nd {
+        height: 37px;
+        width: 37px;
+    }
+
+}

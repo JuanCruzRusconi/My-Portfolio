@@ -1,10 +1,15 @@
 import { FormattedMessage } from "react-intl";
+import { useContext } from "react";
+import { langContext } from "../../context/langContext.jsx";
 import Title from "../Title/Title";
-import resumeImage from "../../assets/CV-IT-JuanCruzRusconi-English.jpg";
+import resumeImageEn from "../../assets/CV-IT-JuanCruzRusconi-English.jpg";
+import resumeImageEs from "../../assets/CV-IT-JuanCruzRusconi-Spanish.jpg";
 
 import "./Resume.css";
 
 const Resume = () => {
+
+    const { locale } = useContext(langContext)
 
     let title = "RESUME.";
     let subtitle = "My recent resume.";
@@ -30,7 +35,7 @@ const Resume = () => {
             />
             <div className="resume-container">
                 <div className="resume-image-container">
-                    <img className="resume-image" src={resumeImage} alt="resume" />
+                    <img className="resume-image" src={locale === 'en-us' ? resumeImageEn : resumeImageEs} alt="resume" />
                 </div>
                 <div className="button-download-container">
                     <button className="button-download">
