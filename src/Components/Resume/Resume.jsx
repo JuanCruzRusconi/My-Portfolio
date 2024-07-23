@@ -22,13 +22,13 @@ const Resume = () => {
             <Title 
                 title={
                     <FormattedMessage 
-                        id="title.resume.first"
+                        id="title.resume"
                         defaultMessage={title}
                     />
                 }
                 subtitle={
                     <FormattedMessage 
-                        id="title.resume.second"
+                        id="subtitle.resume"
                         defaultMessage={subtitle}
                     />
                 }

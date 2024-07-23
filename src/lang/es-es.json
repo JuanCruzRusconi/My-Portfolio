@@ -5,28 +5,35 @@
 
     "navbar.home": "INICIO",
     "navbar.about": "SOBRE",
+    "navbar.skills": "APTITUDES",
     "navbar.projects": "PROYECTOS",
     "navbar.resume": "RESUMEN",
     "navbar.contact": "CONTACTO",
 
-    "title.about.first": "SOBRE.",
-    "title.about.second": "Permíteme presentarme ...",
+    "title.about": "SOBRE.",
+    "subtitle.about": "Permíteme presentarme ...",
 
-    "title.projects.first": "PROYECTOS.",
-    "title.projects.second": "Estos son mis proyectos personales más recientes.",
+    "title.skills": "APTITUDES.",
+    "subtitle.skills": "Recursos que utilizo para desarrollar.",
 
+    "title.projects": "PROYECTOS.",
+    "subtitle.projects": "Estos son mis proyectos personales más recientes.",
 
-    "title.resume.first": "RESUMEN.",
-    "title.resume.second": "Mi resumen más reciente.",
+    "title.resume": "RESUMEN.",
+    "subtitle.resume": "Mi resumen más reciente.",
 
-    "title.contact.first": "CONTACTO.",
-    "title.contact.second": "Estemos en contacto!",
+    "title.contact": "CONTACTO.",
+    "subtitle.contact": "Estemos en contacto!",
 
     "about.text.first": "Me considero una persona proactiva, ordenada y responsable, curiosa, lo que me garantiza seguir creciendo constantemente.",
     "about.text.second": "Un poco sobre mí, hace dos años descubrí el mundo de las TI y me apasionó. En concreto, el mundo de la programación y el desarrollo web.",
     "about.text.third": "Completé cursos en estas áreas, orientados en el Stack MERN, incluyendo proyectos de e-commerce para FrontEnd y el desarrollo de una API RESTful creada para el BackEnd, con la implementación de algunas bibliotecas de terceros para obtener más funcionalidad en mis proyectos.",
     "about.text.fourth": "El descubrimiento de esta nueva pasión me llevó a reinventarme y comenzar una nueva etapa en mi vida. Hoy estoy cursando la carrera de Informática en la Universidad Nacional, mientras continuo capacitándome de manera autodidacta para no perderme de los avances que caracterizan al campo tecnológico.",
     "about.text.fifth": "Deseando iniciar mi carrera profesional para permitirme ganar experiencia y ampliar mis conocimientos, así como aprender nuevas habilidades y tecnologías para estar al día de las nuevas y futuras tendencias.",
+
+    "skills.technologies": "TECNOLOGIAS",
+    "skills.tools": "HERRAMIENTAS",
+    "skills.data": "DATOS",
 
     "card.project-button": "Ver proyecto",
 

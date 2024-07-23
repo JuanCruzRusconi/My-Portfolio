@@ -16,13 +16,13 @@ const ProjectsContainer = () => {
             <Title 
                 title={
                     <FormattedMessage 
-                        id="title.projects.first"
+                        id="title.projects"
                         defaultMessage={title}
                     />
                 }
                 subtitle={
                     <FormattedMessage 
-                        id="title.projects.second"
+                        id="subtitle.projects"
                         defaultMessage={subtitle}
                     />
                 }

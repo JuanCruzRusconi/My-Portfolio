@@ -8,6 +8,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import homeIcon from "../../assets/homeIcon.png";
 import aboutIcon from "../../assets/aboutIcon.png";
+import skillsIcon from "../../assets/skillsIcon.png";
 import projectsIcon from "../../assets/projectsIcon.png"
 import resumeIcon from "../../assets/resumeIcon.png";
 import contactIcon from "../../assets/contactIcon.png";
@@ -54,7 +55,7 @@ const NavBar = () => {
                     </h2>
                 </NavLink>
                 <NavLink className={Style.navbar_items} to='/about'>
-                    <img className={Style.navbar_icons} src={aboutIcon} alt="home" />
+                    <img className={Style.navbar_icons} src={aboutIcon} alt="about" />
                     <h2>
                         <FormattedMessage
                             id="navbar.about"
@@ -62,8 +63,17 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
+                <NavLink className={Style.navbar_items} to='/skills'>
+                    <img className={Style.navbar_icons} src={skillsIcon} alt="skills" />
+                    <h2>
+                        <FormattedMessage
+                            id="navbar.skills"
+                            defaultMessage="SKILLS"
+                        />
+                    </h2>
+                </NavLink>
                 <NavLink className={Style.navbar_items} to='/projects'>
-                    <img className={Style.navbar_icons} src={projectsIcon} alt="home" />
+                    <img className={Style.navbar_icons} src={projectsIcon} alt="projects" />
                     <h2>
                         <FormattedMessage
                             id="navbar.projects"
@@ -72,7 +82,7 @@ const NavBar = () => {
                     </h2>
                 </NavLink>
                 <NavLink className={Style.navbar_items} to='/resume'>
-                    <img className={Style.navbar_icons} src={resumeIcon} alt="home" />
+                    <img className={Style.navbar_icons} src={resumeIcon} alt="resume" />
                     <h2>
                         <FormattedMessage
                             id="navbar.resume"
@@ -81,7 +91,7 @@ const NavBar = () => {
                     </h2>
                 </NavLink>
                 <NavLink className={Style.navbar_items} to='/contact'>
-                    <img className={Style.navbar_icons} src={contactIcon} alt="home" />
+                    <img className={Style.navbar_icons} src={contactIcon} alt="contact" />
                     <h2>
                         <FormattedMessage
                             id="navbar.contact"

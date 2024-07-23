@@ -15,13 +15,13 @@ const About = () => {
             <Title 
                 title={
                     <FormattedMessage 
-                        id="title.about.first"
+                        id="title.about"
                         defaultMessage={title}
                     />
                 }
                 subtitle={
                     <FormattedMessage 
-                        id="title.about.second"
+                        id="subtitle.about"
                         defaultMessage={subtitle}
                     />
                 }

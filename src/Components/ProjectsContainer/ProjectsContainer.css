@@ -1,5 +1,5 @@
 .projects-container {
-    height: 680px;
+    height: auto;
     width: auto;
     display: flex;
     flex-direction: row;

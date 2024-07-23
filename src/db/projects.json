@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "image": "./public/images/landingpage-project-image.png",
+        "image": "/images/landingpage-project-image.png",
         "title": "Landing Page",
         "text": { 
             "en": "My first project, an introduction to myself as a programmer. In this site I triyed to create a simple landing page of a family company, with the knowedge that I had at these moment, without funcionalities.",
@@ -11,7 +11,7 @@
     },
     { 
         "id": 1, 
-        "image": "./public/images/javascript-project-image.png",
+        "image": "/images/javascript-project-image.png",
         "title": "JS Ecommerce", 
         "text": {
             "en": "The second project, an e-commerce of tech products in which I introduce my firsts steps in JS language, with simple functionalities as add to cart products and delete it from it.", 
@@ -21,7 +21,7 @@
     },
     { 
         "id": 2, 
-        "image": "./public/images/reactjs-project-image.png",
+        "image": "/images/reactjs-project-image.png",
         "title": "React Ecommerce", 
         "text": {
             "en": "In the third project, a more advandecd e-commerce with mayor funcionalities created with React and Firestore used as cloud DB to manipulate all data of the products and there stock.", 
@@ -31,7 +31,7 @@
     },
     { 
         "id": 3, 
-        "image": "./public/images/backend-project-image.png",
+        "image": "/images/backend-project-image.png",
         "title": "BackEnd Ecommerce", 
         "text": {
             "en": "The fourth project, a RESTful API constructed in NodeJS and ExpressJS with MongoDB for storage, and implementation of design patterns as Singleton, Factory and Repository, and libraries as Handlebars for views.", 

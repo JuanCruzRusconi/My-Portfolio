@@ -1,0 +1,118 @@
+{
+    
+    "technologies": [
+        {
+            "id": 0,
+            "image": "/svgs/code-open-skills.svg"
+        },
+        {
+            "id": 1,
+            "title": "HTML",
+            "image": "/svgs/html5-skills.svg"
+        },
+        {
+            "id": 2,
+            "title": "CSS",
+            "image": "/svgs/css3-skills.svg"
+        },
+        {
+            "id": 3,
+            "title": "JavaScript",
+            "image": "/svgs/javascript-skills.svg"
+        },
+        {
+            "id": 4,
+            "title": "TypeScript",
+            "image": "/svgs/typescript-skills.svg"
+        },
+        {
+            "id": 5,
+            "title": "React",
+            "image": "/svgs/react-skills.svg"
+        },
+        {
+            "id": 6,
+            "title": "Node",
+            "image": "/svgs/node-skills.svg"
+        },
+        {
+            "id": 7,
+            "title": "Express",
+            "image": "/svgs/express-skills.svg"
+        },
+        {
+            "id": 8,
+            "image": "/svgs/code-close-skills.svg"
+        }
+    ],
+    "tools": [
+        {
+            "id": 0,
+            "image": "/svgs/code-open-skills.svg"
+        },
+        {
+            "id": 1,
+            "title": "Nest",
+            "image": "/svgs/nest-skills.svg"
+        },
+        {
+            "id": 2,
+            "title": "Docker",
+            "image": "/svgs/docker-skills.svg"
+        },
+        {
+            "id": 3,
+            "title": "Sass",
+            "image": "/svgs/sass-skills.svg"
+        },
+        {
+            "id": 4,
+            "title": "Handlebars",
+            "image": "/svgs/handlebars-skills.svg"
+        },
+        {
+            "id": 5,
+            "title": "Git",
+            "image": "/svgs/git-skills.svg"
+        }, 
+        {
+            "id": 6,
+            "title": "Github",
+            "image": "/svgs/github-skills.svg"
+        }, 
+        {
+            "id": 7,
+            "title": "Gitlab",
+            "image": "/svgs/gitlab-skills.svg"
+        },
+        {
+            "id": 8,
+            "image": "/svgs/code-close-skills.svg"
+        }
+    ],
+    "data": [
+        {
+            "id": 0,
+            "image": "/svgs/code-open-skills.svg"
+        },
+        {
+            "id": 1,
+            "title": "Firebase",
+            "image": "/svgs/firebase-skills.svg"
+        },
+        {
+            "id": 2,
+            "title": "MongoDB",
+            "image": "/svgs/mongodb-skills.svg"
+        },
+        {
+            "id": 3,
+            "title": "JSON",
+            "image": "/svgs/json-skills.svg"
+        },
+        {
+            "id": 4,
+            "image": "/svgs/code-close-skills.svg"
+        }
+    ]
+}
