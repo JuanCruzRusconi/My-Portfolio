@@ -38,3 +38,21 @@
     }
 
 }
+
+@media (width >= 769px) and (width <= 1200px) {
+
+    .title-container {
+        font-size: 21px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+      
+    .subtitle-container {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
+}

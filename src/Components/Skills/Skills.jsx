@@ -56,7 +56,7 @@ const Skills = () => {
                     ))}
                 </div>
                 <div className="skills-section-container">
-                    <h3 className="skills-title">
+                    <h3 className="skills-title-data">
                         <FormattedMessage
                             id="skills.data"
                             defaultMessage="DATA"

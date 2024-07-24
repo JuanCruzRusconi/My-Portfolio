@@ -1,15 +1,15 @@
 .about-text-container {
     height: auto;
     width: auto;
-    font-size: 17px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    font-size: 17px;
     align-items: center;
     margin-top: 40px;
     margin-left: 320px;
     margin-right: 320px;
     margin-bottom: 10px;
+    gap: 12px;
 }
 
 .about-image-container {
@@ -25,15 +25,9 @@
     width: 300px;
 }
 
-@media (width >= 300px) and (width <= 700px) {
+@media (width >= 300px) and (width <= 768px) {
 
     .about-text-container {
-        height: auto;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         font-size: 16px;
         margin-top: 50px;
         margin-left: 40px;
@@ -51,10 +45,37 @@
     }
     
     .about-image {
-        height: 270px;
-        width: 300px;
+        height: 200px;
+        width: 235px;
         margin-top: -20px;
         margin-bottom: 20px;
     }
 
+}
+
+@media (width >= 768px) and (width <= 1200px) {
+
+    .about-text-container {
+        font-size: 16.5px;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 40px;
+        gap: 12px;
+    }
+    
+    .about-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+    
+    .about-image {
+        height: 235px;
+        width: 265px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
 }

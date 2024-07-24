@@ -14,31 +14,21 @@
 }
 
 @media (width >= 300px) and (width <= 768px) {
-
-    .contact-container { 
-        height: auto;
-        width: auto;
-    }
     
     .contact-image {    
-        height: 180px;
-        width: 200px;
+        height: 200px;
+        width: 230px;
         margin-top: 20px;
         margin-bottom: -20px;
     }
 
 }
 
-@media (width >= 769px) and (width <= 1000px) {
-
-    .contact-container { 
-        height: auto;
-        width: auto;
-    }
+@media (width >= 768px) and (width <= 1200px) {
     
     .contact-image {    
-        height: 180px;
-        width: 200px;
+        height: 235px;
+        width: 265px;
         margin-top: 20px;
         margin-bottom: -20px;
     }
