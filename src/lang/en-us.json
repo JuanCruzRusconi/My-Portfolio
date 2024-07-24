@@ -14,7 +14,7 @@
     "subtitle.about": "Let me introduce myself ...",
 
     "title.skills": "SKILLS.",
-    "subtitle.skills": "Resoureces I use to develop.",
+    "subtitle.skills": "Resources I use to develop.",
 
     "title.projects": "PROJECTS.",
     "subtitle.projects": "These are my personal recent projects.",
@@ -37,7 +37,7 @@
 
     "card.project-button": "To project",
 
-    "resume.download.button": "Download CV",
+    "resume.download.button": "Download",
 
     "form.title": "Send me an email.",
     "form.send-button": "Send"

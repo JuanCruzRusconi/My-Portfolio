@@ -12,6 +12,8 @@ import skillsIcon from "../../assets/skillsIcon.png";
 import projectsIcon from "../../assets/projectsIcon.png"
 import resumeIcon from "../../assets/resumeIcon.png";
 import contactIcon from "../../assets/contactIcon.png";
+import arrowUpIcon from "../../assets/arrowUpIcon.svg"
+import arrowDownIcon from "../../assets/arrowDownIcon.svg"
 
 import ukIcon from '../../assets/United-Kingdom.png';
 import spIcon from '../../assets/Spain.png';
@@ -23,11 +25,19 @@ const NavBar = () => {
 
     const languaje = useContext(langContext);
 
-    const [movilMenu, setMovilMenu ] = useState(false);
+    const { locale } = useContext(langContext)
+
+    const [movilMenu, setMovilMenu] = useState(false);
+
+    const [langMenu, setLangMenu] = useState(false);
 
     const handleMenu = () => {
         setMovilMenu(!movilMenu);
     };
+
+    const handleLangMenu = () => {
+        setLangMenu(!langMenu);
+    }
 
     return (
 
@@ -37,8 +47,8 @@ const NavBar = () => {
                     <h2 className={Style.navbar_logo}>JCR.</h2>
                 </NavLink>
             </div>
-            <div className={Style.navbar_menu_icon} onClick={()=> handleMenu()}>
-                { movilMenu ?
+            <div className={Style.navbar_menu_icon} onClick={() => handleMenu()}>
+                {movilMenu ?
                     (<FontAwesomeIcon icon={faTimes} size="2x" />)
                     :
                     (<FontAwesomeIcon icon={faBars} size="2x" />)
@@ -99,22 +109,37 @@ const NavBar = () => {
                         />
                     </h2>
                 </NavLink>
-                <div className={Style.navbar_flags_container}>
-                    <div className={Style.uk_container}>
-                        <button className={Style.flags_button} onClick={() => languaje.handleLanguaje('en-us')}>
-                            <img className={Style.navbar_flags} src={ukIcon} alt="" />
+                <div className={Style.navbar_items} onClick={() => handleLangMenu()}>
+                    {locale === 'en-us' ?
+                        <h2>EN</h2>
+                        :
+                        <h2>ES</h2>
+                    }
+                    {langMenu ?
+                        (<img className={Style.navbar_icons_lang} src={arrowUpIcon} alt="" />)
+                        :
+                        (<img className={Style.navbar_icons_lang} src={arrowDownIcon} alt="" />)
+                    }
+                </div>
+                <div className={langMenu ? Style.lang_container_open : Style.lang_container_close}>
+                    <div className={Style.lang_options}>
+                        <button className={Style.lang_button} onClick={() => languaje.handleLanguaje('en-us')}>
+                            <h4 className={Style.lang_text}>EN</h4>
+                            <img className={Style.lang_flags} src={ukIcon} alt="" />
                         </button>
                     </div>
-                    <div className={Style.sp_container}>
-                        <button className={Style.flags_button} onClick={() => languaje.handleLanguaje('es-es')}>
-                            <img className={Style.navbar_flags} src={spIcon} alt="" />
+                    <div className={Style.lang_options}>
+                        <button className={Style.lang_button} onClick={() => languaje.handleLanguaje('es-es')}>
+                            <h4 className={Style.lang_text}>ES</h4>
+                            <img className={Style.lang_flags} src={spIcon} alt="" />
                         </button>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
-        
+
     )
 }
 
 export default NavBar;
+
