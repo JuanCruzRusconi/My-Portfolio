@@ -49,7 +49,7 @@
 
 }
 
-@media (width >= 769px) and (width <= 1000px) {
+@media (width >= 768px) and (width <= 1000px) {
 
 	.projects-container {
 		height: auto;
@@ -78,5 +78,23 @@
     	margin-bottom: 10px;
 		gap: 40px;
   	}
+
+}
+
+@media (width >= 1200px) and (width <= 1500px) {
+
+	.projects-container {
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-bottom: 80px;
+		padding: 0px 70px 0px 70px;
+		gap: 20px;
+	}
+	
+	.projects-cards-container {
+		  display: flex;
+		  flex-direction: row;
+		  gap: 17px;
+	}
 
 }

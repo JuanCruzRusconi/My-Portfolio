@@ -262,7 +262,7 @@
 
 }
 
-@media (width >= 769px) and (width <= 1200px) {
+@media (width >= 768px) and (width <= 1200px) {
     
     .navbar_container_close {
         height: 70px;
@@ -383,6 +383,44 @@
         height: 22px;
         width: 22px;
         padding-right: 0px;
+    }
+
+}
+
+@media (width >= 1200px) and (width <= 1500px) {
+
+    .navbar_container_close {
+        height: 75px;
+    }
+
+    .section_logo_container{
+        flex: 1.5;
+        margin-left: 100px;
+    }
+    
+    .sections_container_close {
+        flex: 3;
+        margin-right: 100px;
+    }
+
+    .navbar_items {
+        font-size: 8.5px;
+        letter-spacing: 3px;
+    }
+
+    .navbar_logo {
+        font-size: 15.5px;
+    }
+
+    .navbar_icons {
+        height: 13px;
+        width: 13px;
+        padding-right: 5.5px;
+    }
+
+    .lang_container_open {
+        margin-right: 100px;
+        top: 75px;
     }
 
 }

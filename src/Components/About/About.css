@@ -17,7 +17,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: -10px;
+    margin-top: 15px;
 }
 
 .about-image {
@@ -32,7 +32,7 @@
         margin-top: 50px;
         margin-left: 40px;
         margin-right: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         gap: 12px;
     }
     
@@ -41,14 +41,13 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: -10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     .about-image {
         height: 200px;
         width: 235px;
-        margin-top: -20px;
-        margin-bottom: 20px;
     }
 
 }
@@ -60,7 +59,7 @@
         margin-top: 50px;
         margin-left: 100px;
         margin-right: 100px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         gap: 12px;
     }
     
@@ -69,13 +68,21 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: -10px;
+        margin-top: 0px;
+        margin-bottom: 40px;
     }
     
     .about-image {
         height: 235px;
         width: 265px;
-        margin-top: -20px;
-        margin-bottom: 20px;
+    }
+}
+
+@media (width >= 1200px) and (width <= 1500px) {
+
+    .about-text-container {
+        font-size: 17px;
+        margin-left: 220px;
+        margin-right: 220px;
     }
 }

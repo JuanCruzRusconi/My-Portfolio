@@ -111,7 +111,7 @@
 
 }
 
-@media (width >= 769px) and (width <= 1000px) {
+@media (width >= 768px) and (width <= 1000px) {
         
     .card {
         height: 300px;
@@ -146,6 +146,24 @@
     .project-button {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+}
+
+@media (width >= 1200px) and (width <= 1500px) {
+
+    .card {
+        height: 570px;
+    }
+
+    .project-image {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 5px 15px;
+    }
+
+    .project-text {
+        font-size: 13px;
     }
 
 }

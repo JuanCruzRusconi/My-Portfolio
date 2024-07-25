@@ -114,8 +114,6 @@
 
     .form-input {
         font-size: 15px;
-        height: 30px;
-        min-height: 30px;
         width: 250px;
         padding-left: 10px;
     }
@@ -140,7 +138,7 @@
 
 }
 
-@media (width >= 769px) and (width <= 1000px) {
+@media (width >= 768px) and (width <= 1000px) {
 
     .form-container {
         height: 400px;
@@ -159,8 +157,6 @@
 
     .form-input {
         font-size: 15px;
-        height: 30px;
-        min-height: 30px;
         width: 400px;
         padding-left: 10px;
         margin-left: 40px;
@@ -171,7 +167,9 @@
         color: aliceblue;
         font-size: 15px;
         min-height: 120px;
-        min-width: px;
+        min-width: 400px;
+        max-width: 500px;
+        width: 400px;
         padding-left: 10px;
     }
 
