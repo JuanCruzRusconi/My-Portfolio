@@ -11,7 +11,8 @@ const Me = ({ children }) => {
     let spec = "Full Stack Developer";
 
     return (
-        <>
+        
+        <section>
             <div className="me-container">
                 <div className="me">
                     <h2 className="me-intro">
@@ -43,7 +44,7 @@ const Me = ({ children }) => {
             <div className="icons-menu">
                 <IconsMenu />
             </div>
-        </>
+        </section>
 
     )
 }

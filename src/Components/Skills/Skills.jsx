@@ -9,7 +9,8 @@ const Skills = () => {
     let subtitle = "My skills.";
 
     return (
-        <>
+
+        <section>
             <div>
                 <Title
                     title={
@@ -70,7 +71,7 @@ const Skills = () => {
                     ))}
                 </div>
             </div>
-        </>
+        </section>
 
     )
 

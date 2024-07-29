@@ -11,7 +11,7 @@ const About = () => {
 
     return (
 
-        <div>
+        <section>
             <Title 
                 title={
                     <FormattedMessage 
@@ -26,7 +26,7 @@ const About = () => {
                     />
                 }
             />
-            <div className="about-text-container">
+            <article className="about-text-container">
                 <p className="about-text">
                     <FormattedMessage 
                         id="about.text.first"
@@ -57,11 +57,11 @@ const About = () => {
                         defaultMessage="Looking forward to start my professional career to allow myself to gain experience and expand my knowledge, as well as learn new skills and technologies to stay up to date with new and future trends."
                     />
                 </p>
-            </div>
+            </article>
             <div className="about-image-container">
                 <img className="about-image" src={aboutImage} alt="aboutImage" />
             </div>
-        </div>
+        </section>
 
     )
 }

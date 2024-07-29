@@ -12,7 +12,7 @@ const ProjectsContainer = () => {
 
     return (
         
-        <>
+        <section>
             <Title 
                 title={
                     <FormattedMessage 
@@ -32,7 +32,7 @@ const ProjectsContainer = () => {
                     { Projects.map(project => <Card key={project.id} project={project} /> ) }
                 </div>
             </div>
-        </>
+        </section>
 
     )
 }

@@ -41,7 +41,7 @@ const NavBar = () => {
 
     return (
 
-        <div className={movilMenu ? Style.navbar_container_open : Style.navbar_container_close}>
+        <header className={movilMenu ? Style.navbar_container_open : Style.navbar_container_close}>
             <div className={Style.section_logo_container}>
                 <NavLink className={Style.navbar_items} to={'/'}>
                     <h2 className={Style.navbar_logo}>JCR.</h2>
@@ -54,7 +54,7 @@ const NavBar = () => {
                     (<FontAwesomeIcon icon={faBars} size="2x" />)
                 }
             </div>
-            <div className={movilMenu ? Style.sections_container_open : Style.sections_container_close}>
+            <nav className={movilMenu ? Style.sections_container_open : Style.sections_container_close}>
                 <NavLink className={Style.navbar_items} to={'/'}>
                     <img className={Style.navbar_icons} src={homeIcon} alt="home" />
                     <h2>
@@ -135,8 +135,8 @@ const NavBar = () => {
                         </button>
                     </div>
                 </div>
-            </div>
-        </div>
+            </nav>
+        </header>
 
     )
 }

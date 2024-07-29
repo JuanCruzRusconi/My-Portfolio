@@ -9,7 +9,7 @@ const Footer = () => {
 
     return (
         
-        <div className="footer-container">
+        <footer className="footer-container">
             <div className="footer-icons-container">
                 <NavLink to="https://www.linkedin.com/in/juan-cruz-rusconi/" target="_blank" rel="noopener noreferrer">
                     <img className="footer-icons" src={linkedinIcon} alt="linkedin" />
@@ -33,7 +33,7 @@ const Footer = () => {
                     <p className="copyright-text"></p>
                 </div>
             </div>
-        </div>
+        </footer>
 
     )
 }

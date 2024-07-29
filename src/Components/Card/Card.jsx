@@ -14,7 +14,7 @@ const Card = memo (( {project} ) => {
     return (
 
 
-        <div key={project.id} className="card">
+        <article key={project.id} className="card">
             <img className="project-image" src={project.image} alt="" />
             <h3 className="project-title">{project.title}</h3>
             <p className="project-text">{locale === 'en-us' ? project.text.en : project.text.es}</p>
@@ -26,7 +26,7 @@ const Card = memo (( {project} ) => {
                     />
                 </button>
             </NavLink>
-        </div>
+        </article>
         
     )
 })

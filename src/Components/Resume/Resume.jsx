@@ -18,7 +18,7 @@ const Resume = () => {
 
     return (
 
-        <>
+        <section>
             <Title 
                 title={
                     <FormattedMessage 
@@ -59,7 +59,7 @@ const Resume = () => {
                     }       
                 </div>
             </div>
-        </>
+        </section>
         
     )
 }

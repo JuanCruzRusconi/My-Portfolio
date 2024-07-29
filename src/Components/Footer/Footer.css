@@ -4,7 +4,7 @@
     width: 100%;  
     position: relative;
     bottom: 0;
-    margin-top: 40px;
+    margin-top: auto;
 }
   
 .footer-icons-container {
@@ -112,7 +112,7 @@
 
 }
 
-@media (width >= 768px) and (width <= 1000px) {
+@media (width >= 768px) and (width <= 1200px) {
 
     .footer-container {
         height: 50px;

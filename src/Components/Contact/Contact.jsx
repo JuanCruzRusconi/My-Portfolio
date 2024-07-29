@@ -12,7 +12,7 @@ const Contact = () => {
     
     return (
 
-        <>
+        <section>
             <Title 
                 title={
                     <FormattedMessage 
@@ -33,7 +33,7 @@ const Contact = () => {
                     <img className="contact-image" src={contactLogo} alt="contactLogo" />
                 </div>
             </div>
-        </>
+        </section>
         
     )
 }
