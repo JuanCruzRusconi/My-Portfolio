@@ -1,45 +1,32 @@
 .projects-container {
     height: auto;
     width: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 80px;
-    padding: 0px 70px 0px 70px;
-    gap: 20px;
+    margin-top: 70px;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-bottom: 120px;
+    gap: 0px;
 }
 
 .projects-cards-container {
-  	display: flex;
-  	flex-direction: row;
-  	gap: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
 }
 
 @media (width >= 300px) and (width <= 768px) {
   
   	.projects-container {
-		height: auto;
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 40px;
-		margin-bottom: 55px;
+		margin-top: 50px;
+		margin-bottom: 70px;
 		margin-left: 40px;
 		margin-right: 40px;
 		padding: 0px 10px 0px 10px;
   	}
 
   	.projects-cards-container {
-		height: auto;
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
 		margin-top: 10px;
     	margin-left: 10px;
     	margin-right: 10px;
@@ -52,49 +39,36 @@
 @media (width >= 768px) and (width <= 1000px) {
 
 	.projects-container {
-		height: auto;
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 40px;
-		margin-bottom: 55px;
-		margin-left: 240px;
-		margin-right: 240px;
+		margin-top: 60px;
+		margin-bottom: 80px;
+		margin-left: 200px;
+		margin-right: 200px;
 		padding: 0px 10px 0px 10px;
   	}
 
   	.projects-cards-container {
-		height: auto;
-		width: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
 		margin-top: 10px;
     	margin-left: 10px;
     	margin-right: 10px;
     	margin-bottom: 10px;
-		gap: 40px;
+		gap: 50px;
   	}
+
+}
+
+@media (width >= 1000px) and (width <= 1200px) {
+
+	.projects-container {
+		margin-left: 120px;
+		margin-right: 120px;
+	}
 
 }
 
 @media (width >= 1200px) and (width <= 1500px) {
 
 	.projects-container {
-		margin-left: 70px;
-		margin-right: 70px;
-		margin-bottom: 80px;
-		padding: 0px 70px 0px 70px;
-		gap: 20px;
+		margin-left: 180px;
+		margin-right: 180px;
 	}
-	
-	.projects-cards-container {
-		  display: flex;
-		  flex-direction: row;
-		  gap: 17px;
-	}
-
 }

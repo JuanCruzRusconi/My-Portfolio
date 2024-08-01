@@ -35,7 +35,8 @@
     "skills.tools": "HERRAMIENTAS",
     "skills.data": "DATOS",
 
-    "card.project-button": "Ver proyecto",
+    "card.project.button.live": "Ver proyecto",
+    "card.project.button.repo": "Ver codigo",
 
     "resume.download.button": "Descargar",
 

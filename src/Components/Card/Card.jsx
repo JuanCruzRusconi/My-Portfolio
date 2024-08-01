@@ -9,23 +9,38 @@ const Card = memo (( {project} ) => {
 
     const { locale } = useContext(langContext);
 
-    let button = "To project";
+    let buttonLive = "To project";
+    let buttonRepo = "To project";
 
     return (
 
-
         <article key={project.id} className="card">
-            <img className="project-image" src={project.image} alt="" />
-            <h3 className="project-title">{project.title}</h3>
-            <p className="project-text">{locale === 'en-us' ? project.text.en : project.text.es}</p>
-            <NavLink className="project-button-navlink" to={project.link} target="_blank" rel="noopener noreferrer">
-                <button className="project-button">
-                    <FormattedMessage 
-                        id="card.project-button"
-                        defaultMessage={button}
-                    />
-                </button>
-            </NavLink>
+            <div className="project-image-container">
+                <img className="project-image" src={project.image} alt="" />
+            </div>
+            <div className="project-description-container">
+                <h3 className="project-title">{locale === 'en-us' ? project.title.en : project.title.es}</h3>
+                <p className="project-text">{locale === 'en-us' ? project.text.en : project.text.es}</p>
+                <p className="project-techs">{project.techs}</p>
+                <div className="project-buttons-container">
+                    <NavLink className="project-button-navlink" to={project.link} target="_blank" rel="noopener noreferrer">
+                        <button className="project-button">
+                            <FormattedMessage
+                                id="card.project.button.live"
+                                defaultMessage={buttonLive}
+                            />
+                        </button>
+                    </NavLink>
+                    <NavLink className="project-button-navlink" to={project.repo} target="_blank" rel="noopener noreferrer">
+                        <button className="project-button">
+                            <FormattedMessage
+                                id="card.project.button.repo"
+                                defaultMessage={buttonRepo}
+                            />
+                        </button>
+                    </NavLink>
+                </div>
+            </div>
         </article>
         
     )

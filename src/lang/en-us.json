@@ -35,7 +35,8 @@
     "skills.tools": "TOOLS",
     "skills.data": "DATA",
 
-    "card.project-button": "To project",
+    "card.project.button.live": "To project",
+    "card.project.button.repo": "See code",
 
     "resume.download.button": "Download",
 
