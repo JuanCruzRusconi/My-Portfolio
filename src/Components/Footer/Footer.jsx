@@ -27,7 +27,7 @@ const Footer = () => {
                     <p className="copyright-text">Designed and developed by Juan Cruz Rusconi.</p>
                 </div>
                 <div className="copyright">
-                    <p className="copyright-text">© Copyright 2024.  JCR.</p>
+                    <p className="copyright-text">© Copyright 2025.  JCR.</p>
                 </div>
                 <div className="copyright-icons">
                     <p className="copyright-text"></p>
