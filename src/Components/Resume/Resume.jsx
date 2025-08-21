@@ -2,8 +2,8 @@ import { FormattedMessage } from "react-intl";
 import { useContext } from "react";
 import { langContext } from "../../context/langContext.jsx";
 import Title from "../Title/Title";
-import resumeImageEn from "../../assets/CV-IT-JuanCruzRusconi-English.jpg";
-import resumeImageEs from "../../assets/CV-IT-JuanCruzRusconi-Spanish.jpg";
+import resumeImageEn from "../../assets/CV_Juan_Cruz_Rusconi_EN.jpg";
+import resumeImageEs from "../../assets/CV_Juan_Cruz_Rusconi_ES.jpg";
 
 import "./Resume.css";
 
@@ -40,7 +40,7 @@ const Resume = () => {
                 <div className="button-download-container">
                     {locale === 'en-us' ?
                         <button className="button-download">
-                            <a className="link" href='/CV-IT-JuanCruzRusconi-English.pdf' download={''} target="_blank">
+                            <a className="link" href='/CV_Juan_Cruz_Rusconi_EN.pdf' download={''} target="_blank">
                                 <FormattedMessage
                                     id="resume.download.button"
                                     defaultMessage={buttonEn}
@@ -49,7 +49,7 @@ const Resume = () => {
                         </button>
                         :
                         <button className="button-download">
-                            <a className="link" href='/CV-IT-JuanCruzRusconi-Spanish.pdf' download={''} target="_blank">
+                            <a className="link" href='/CV_Juan_Cruz_Rusconi_ES.pdf' download={''} target="_blank">
                                 <FormattedMessage
                                     id="resume.download.button"
                                     defaultMessage={buttonEs}
