@@ -41,7 +41,7 @@ export const Form = () => {
             icon: "success"
         });
   
-        emailjs.sendForm('service_yof5aew', 'template_wv1afy7', form.current, {
+        emailjs.sendForm('service_q4nnj6b', 'template_wv1afy7', form.current, {
             publicKey: 'P2sHLKZQ67wfXdLH9'})
             .then(
             () => {

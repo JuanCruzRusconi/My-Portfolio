@@ -1,33 +1,18 @@
 [
-    {
-        "id": 0,
-        "image": "/images/landingpage-project-image.png",
-        "title": { 
-            "en": "Landing Page",
-            "es": "Landing Page"
-        },
-        "techs": "{ HTML, CSS, SCSS }",
-        "text": { 
-            "en": "My first project, an introduction to myself as a programmer. In this site I triyed to create a simple landing page of a family company, with the knowedge that I had at these moment, without funcionalities.",
-            "es": "Mi primer proyecto, una introducción a mí mismo como programador. En este sitio intenté crear una landing page simple para una empresa familiar, con el conocimiento adquirido hasta ese momento, sin funcionalidades."
-            },
-        "link": "https://electricidad-rusconi.netlify.app/",
-        "repo": "https://github.com/JuanCruzRusconi/ProyectoElectricidadRusconi"
-    },
     { 
-        "id": 1, 
-        "image": "/images/javascript-project-image.png",
+        "id": 4, 
+        "image": "/images/iluma-project-image.png",
         "title": { 
-            "en": "JavaScript E-commerce",
-            "es": "JavaScript E-commerce"
+            "en":"Digital Marketing Agency Website — Iluma Marketing",
+            "es": "Sitio web de Agencia de Marketing Digital — Iluma Marketing"
         },
-        "techs": "{ HTML, CSS, JAVASCRIPT }",
+        "techs": "{ TypeScript, React, Supabase, Vite, Taildwind CSS, Radix UI }",
         "text": {
-            "en": "The second project, an e-commerce of tech products in which I introduce my firsts steps in JS language, with simple functionalities as add to cart products and delete it from it.", 
-            "es": "El segundo proyecto, un e-commerce de productos tecnológicos en el cual introduzco mis primeros pasos en el lenguaje JS, con funcionalidades simples como agregar productos al carrito y eliminarlos."
+            "en": "Design and development of website for a digital marketing agency, focused on presenting communication services, online strategy, branding and digital solutions for businesses.", 
+            "es": "Diseño y desarrollo de un sitio web para una agencia de marketing digital, enfocado en presentar servicios de comunicación, estrategia online, branding y soluciones digitales para negocios."
             },
-        "link": "https://usaimports.netlify.app/",
-        "repo": "https://github.com/JuanCruzRusconi/USAImports"
+        "link": "https://iluma-marketing.netlify.app/",
+        "repo": "https://github.com/JuanCruzRusconi/ILUMA-MARKETING"
     },
     { 
         "id": 2, 
@@ -45,6 +30,36 @@
         "repo": "https://github.com/JuanCruzRusconi/E-commerce.reactjs/tree/main/e-commerce.reactjs"
     },
     { 
+        "id": 1, 
+        "image": "/images/javascript-project-image.png",
+        "title": { 
+            "en": "JavaScript E-commerce",
+            "es": "JavaScript E-commerce"
+        },
+        "techs": "{ HTML, CSS, JAVASCRIPT }",
+        "text": {
+            "en": "The second project, an e-commerce of tech products in which I introduce my firsts steps in JS language, with simple functionalities as add to cart products and delete it from it.", 
+            "es": "El segundo proyecto, un e-commerce de productos tecnológicos en el cual introduzco mis primeros pasos en el lenguaje JS, con funcionalidades simples como agregar productos al carrito y eliminarlos."
+            },
+        "link": "https://usaimports.netlify.app/",
+        "repo": "https://github.com/JuanCruzRusconi/USAImports"
+    },
+    {
+        "id": 0,
+        "image": "/images/landingpage-project-image.png",
+        "title": { 
+            "en": "Landing Page",
+            "es": "Landing Page"
+        },
+        "techs": "{ HTML, CSS, SCSS }",
+        "text": { 
+            "en": "My first project, an introduction to myself as a programmer. In this site I triyed to create a simple landing page of a family company, with the knowedge that I had at these moment, without funcionalities.",
+            "es": "Mi primer proyecto, una introducción a mí mismo como programador. En este sitio intenté crear una landing page simple para una empresa familiar, con el conocimiento adquirido hasta ese momento, sin funcionalidades."
+            },
+        "link": "https://electricidad-rusconi.netlify.app/",
+        "repo": "https://github.com/JuanCruzRusconi/ProyectoElectricidadRusconi"
+    },
+    { 
         "id": 3, 
         "image": "/images/backend-project-image.png",
         "title": { 
@@ -60,11 +75,11 @@
         "repo": "https://github.com/JuanCruzRusconi/BackEnd-Proyect"
     },
     { 
-        "id": 4, 
+        "id": 5, 
         "image": "/images/siteunderdevelopment-project-image.png",
         "title": { 
             "en":"Site under development!",
-            "es": "Sitio en desarrollo!"
+            "es": "Sitio web de Agencia de Marketing Digital — Iluma Marketing"
         },
         "techs": "{ object Object }",
         "text": {
