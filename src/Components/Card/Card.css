@@ -29,11 +29,10 @@
     padding-bottom: 40px;
 }
 
-.project-buttons-container {
-    display: flex;
-    flex-direction: row;
-    bottom: 0;
-    gap: 30px;
+.project-image {
+    width: 450px;
+    height: 100%;
+    border-radius: 15px 8px 8px 15px;
 }
 
 .project-image {
@@ -127,7 +126,7 @@
     }
     
     .project-buttons-container {
-        position: relative;
+        display: flex;
         margin-top: auto;
         bottom: 0;
         margin-bottom: 10px;
@@ -231,6 +230,12 @@
 }
 
 @media (width >= 1000px) and (width <= 1200px) {
+
+    .project-image-container {
+        width: 100%;
+        min-width: 420px;
+        border-radius: 15px 15px 5px 15px;
+    }
 
     .project-image {
         width: 100%;
