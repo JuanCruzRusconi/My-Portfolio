@@ -7,17 +7,14 @@ const langContext = React.createContext();
 
 const LangProvider = ({children}) => {
 
-    let defaultLocale;
-    let defaultMessages;
+    let defaultLocale = "es-es";
+    let defaultMessages = spanishMessages;
+    
     const lang = localStorage.getItem('lang');
     if(lang) {
         defaultLocale = lang;
         if(lang === 'en-us') defaultMessages = englishMessages;
-        if(lang === 'es-es') defaultMessages = spanishMessages;
-        else {
-            defaultLocale = 'en-us';
-            defaultMessages = englishMessages;
-        }
+        else defaultMessages = spanishMessages;
     };
 
     const [ messages, stablishMessages ] = useState(defaultMessages);
@@ -38,8 +35,8 @@ const LangProvider = ({children}) => {
                 localStorage.setItem('lang', 'es-es');
                 break;
             default:
-                stablishMessages(englishMessages);
-                stablishLocale('en-us');
+                stablishMessages(spanishMessages);
+                stablishLocale('es-es');
         }
     };
 
