@@ -71,6 +71,14 @@
     width: 120px;
     height: 40px;
 }
+
+.project-buttons-container {
+    display: flex;
+    margin-top: auto;
+    bottom: 0;
+    margin-bottom: 10px;
+    gap: 20px;
+}
   
 .project-button {
     flex: 0.22;
@@ -123,14 +131,6 @@
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 30px;
-    }
-    
-    .project-buttons-container {
-        display: flex;
-        margin-top: auto;
-        bottom: 0;
-        margin-bottom: 10px;
-        gap: 20px;
     }
 
     .project-title {
@@ -193,14 +193,7 @@
         padding-right: 20px;
         padding-bottom: 30px;
     }
-    
-    .project-buttons-container {
-        position: relative;
-        margin-top: auto;
-        bottom: 0;
-        margin-bottom: 10px;
-        gap: 20px;
-    }
+
 
     .project-title {
         margin-top: 20px;
